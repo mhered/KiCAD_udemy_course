@@ -1,0 +1,25 @@
+# Ignore backup folders
+**/*-backups/
+
+# Ignore backup, autosave, and temporary files
+*.bak
+*.tmp
+*.bck
+*~
+
+# Ignore KiCad autosave files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Ignore user configuration and environment files
+*.pro
+*.cache
+*.kicad_prl
+*.sch-prl
+*.pcb-prl
+**/fp-info-cache
+__pycache__/
+
+# Ignore build directories
+build/
+output/

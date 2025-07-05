@@ -295,7 +295,7 @@ Two 7-step workflows. In reality not linear but iterative.
 
 ## Project 1: LED Torch 
 
-### PCB Design
+### Schematic Design
 
 #### 1. Setup
 
@@ -307,19 +307,24 @@ Preferences > Schematic Editor > Grids
 
 Configure view using buttons in left hand (type of cursor, snap to grid, units etc)
 
-### 2. Symbols
+#### 2. Symbols
 
-**A** to bring symbol chooser
+`a`  to bring symbol chooser
 
 Select, place
 
-**R** to rotate
+`r`to rotate
 
-### 3. Arrange annotate associate
+#### 3. Arrange annotate associate
 
 Since KiCAD8 annotation is automated (unique identifiers)
 
-Arranging. There is an option to Change symbols in bulk
+Arranging. 
+
+3 options to fix a symbol:
+
+1. delete and add again 
+2. double click to bring **Properties** window + **Change Symbols** button which also allows to change symbols in bulk
 
 Assign footprint. Can do with double click + properties window but better with 
 
@@ -327,25 +332,70 @@ Assign footprint. Can do with double click + properties window but better with
 
 Filters are no perfect
 
+#### 4. Wire
+
+**Draw Wires** tool or `w` to connect pins with wires 
+
+then **Electrical Rules Checker** > **Run ERC** throws warnings if wires not on grid. Can click an drag
+
+Also complains only used one unit of the switch 
+
+#### 5. Nets
+
+a net is a name for a connection, can have several wires. Can be named .
+
+#### 6. Electrical Rules Check
+
+**Delete All Markers** when done
+
+#### 7. Comments
+
+### Layout design 
+
+#### 1. Setup
+
+Import footprints with **Update PCB from Schematic** button
+
+Open **Appearance** pane, there you can select the active layer to draw tracks ej. **F.Bu** for top,  **B.Cu** for bottom copper layer or **Edge.Cuts** for PCB outline. 
+
+Selection filter defines what is selectable by type (ej. text or footprints)
+
+Objects allow defining visibility by type
+
+#### 2. Outline and constraints
+
+Constraints:  minimal size for cost, consider attachment, access to connection or switches, biggest component, etc
+
+#### 3. Footprints
+
+Distribute footprints
+
+#### 4. Route
+
+Set number of copper layers
+
+Start routing from left to right
+
+#### 5. Silkscreen
+
+Can move things from Fabrication layer to Silkscreen layer
+
+#### 6. Design Rules check
+
+check parity as well
+
+#### 7. Export & Manufacture
+
+2 methods:
+
+- Plugin (easier)
+- gerber files: plot + generate drill files, the zip and upload
 
 
-### 4. Wire
 
 
 
-### 5. Nets
-
-
-
-### 6. Electrical Rules Check
-
-
-
-### 7. Comments
-
-
-
-## Exporting 3D including silkscreen
+#### 8. (BONUS) Exporting 3D including silkscreen
 
 YT video: https://www.youtube.com/watch?v=Q_API66fq4I
 

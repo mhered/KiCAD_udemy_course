@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "LED Torch")
-		(date "2025-07-03")
+		(date "2025-07-05")
 		(rev "0.1")
 		(company "Sevillabot")
 		(comment 1 "Project 1 ")
 		(comment 2 "KiCAD like a Pro - Udemy Course")
-		(comment 3 "A basic PBC project")
+		(comment 3 "A basic PCB project")
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
@@ -673,6 +673,139 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 76.2 71.12)
+		(end 167.64 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12b74ea2-1e97-41f3-be79-2ba44f709a0c)
+	)
+	(text "LED torch"
+		(exclude_from_sim no)
+		(at 85.09 74.93 0)
+		(effects
+			(font
+				(face "Lato Black")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0f0515e8-ccbb-4cb1-a13d-5aa1ffaa89cb")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391ff9d5-a96b-41ab-8a97-cdf1a3b8dbfd")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41279339-84ed-48a3-ab3a-ad4ad8ccb733")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425063f5-f07d-43a5-8de2-662af790b36b")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687778a4-c651-4303-997c-53dd3e9b2b4b")
+	)
+	(wire
+		(pts
+			(xy 128.27 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c49a5e6-516a-4265-a8af-834d21270550")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4f0762-d462-4593-93cc-b30748dddb49")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e058c3f2-665d-4311-b02e-5f5acb2576f7")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6010788-4129-4f34-a06f-6e94f17bccd8")
+	)
+	(label "LED_cathode"
+		(at 88.9 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13bf6255-e569-43c2-bdbe-c7d402df5c55")
+	)
+	(label "LED_anode"
+		(at 106.68 83.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "446fbdae-84f1-4b3c-874c-3631740a7867")
+	)
+	(label "bat_pos"
+		(at 152.4 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ca61245-1204-4fa1-a38a-957682f0753f")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 124.46 83.82 90)
@@ -681,7 +814,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f3f2ee4-81b2-485d-b0fb-7c888da07b64")
 		(property "Reference" "R1"
 			(at 124.46 77.47 90)
@@ -700,12 +832,12 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 124.46 85.598 90)
+			(at 118.11 86.36 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Courier 10 Pitch")
+					(size 0.64 0.64)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -749,7 +881,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "663cec77-fbf1-4b7a-b972-9c0396073f9c")
 		(property "Reference" "BT1"
 			(at 125.0315 93.98 90)
@@ -768,12 +899,12 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_1058_1x2032"
-			(at 124.714 101.6 90)
+			(at 124.46 105.41 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Courier 10 Pitch")
+					(size 0.64 0.64)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -811,16 +942,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPST_x2")
-		(at 143.51 83.82 0)
+		(at 149.86 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "811cdf3b-4a53-446f-8857-cef993244045")
 		(property "Reference" "SW1"
-			(at 143.51 77.47 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +958,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 143.51 80.01 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -836,16 +966,16 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
-			(at 143.51 83.82 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Courier 10 Pitch")
+					(size 0.64 0.64)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 83.82 0)
+			(at 149.86 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +984,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 143.51 83.82 0)
+			(at 149.86 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,16 +1015,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 83.82 0)
+		(at 99.06 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb654450-c014-4d31-b3b1-1910a2cc8789")
 		(property "Reference" "D1"
-			(at 106.3625 77.47 0)
+			(at 97.4725 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +1031,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 106.3625 80.01 0)
+			(at 97.4725 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,16 +1039,16 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 107.95 83.82 0)
+			(at 95.25 88.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Courier 10 Pitch")
+					(size 0.64 0.64)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 83.82 0)
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,7 +1057,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 83.82 0)
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +1066,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 83.82 0)
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
