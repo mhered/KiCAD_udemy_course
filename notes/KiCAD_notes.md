@@ -1,69 +1,77 @@
-# Notes PCB design with KiCAD - updated for KiCAD 9
+# Notes on "PCB design with KiCAD - updated for KiCAD 9"
 
 Dr Peter Dalmaris - [PCB design with KiCad - updated for KiCad 9 | Udemy](https://www.udemy.com/course/kicad-like-a-pro-3e/)
 
-See also [Companion book(PDF)](./assets/KiCadLikeaPro3e_Course_Companion.pdf)
+See also [Companion book (PDF)](./assets/KiCadLikeaPro3e_Course_Companion.pdf)
 
-## Why KiCAD
+## Why KiCAD?
 
-best PCB software 
+- best PCB software 
 
-free
+- free
 
-unlimited
+- unlimited
 
-active opensource community
+- active opensource community
 
-compatible with component libraries: Ultra Librarian, SnapEDA, and KiCad, Octopart
+- compatible with component libraries: Ultra Librarian, SnapEDA, and KiCad, Octopart
 
-advanced features e.g. autorouter, python extensions
+- advanced features e.g. autorouter, python extensions
 
-continuous improvement, predictable release cycle
+- continuous improvement, predictable release cycle
 
-workflow: schematic design separated from layout design
+- workflow: schematic design separated from layout design
 
-can manufacture anywhere: exports std gerber files and many take native files
+- can manufacture anywhere: exports std gerber files and many take native files
 
-windows, linux, etc
+- windows, linux, etc
 
-configurable: hot keys, python API
+- configurable: hot keys, python API
 
-SPICE simulator integrated to simulate
+- SPICE simulator integrated to simulate
+
+
+Explore the web [Made with KiCAD](https://www.kicad.org/made-with-kicad/)
 
 ## Course structure
 
-1. Intro to PCBs: basic lessons(1-3)
+1. Intro to PCBs: basic lessons (Sections 1-3)
 
-2. A first basic project (lesson 4)
-3. Fundamentals (lessons 5-8) reference of for specific features  
-4. projects (lessons 10-13): The main course projects, increasing in difficulty, hands-on learning. 
-5. Recipes (lesson 14): 
+2. A first basic project (Sections 4-5)
+3. Fundamentals (Sections 6-9) reference for specific features  
+4. projects (Sections10-12): The main course projects, increasing in difficulty, hands-on learning. 
+5. Recipes (lesson 13): quick reference
+6. Section 14 - specific features of the newest version KiCAD 9 
+7. Legacy lessons
 
-See Section 13 for specific features of the newest version KiCAD 9 
+The course is iterative, introducing concepts and going through them again in more detail. 
 
-## Elements of a PCB
+I decided to organize my notes by themes and progressively enrich them as we cover the material different times in more depth 
+
+## Elements of a PCB /Glossary of terms
+
+* PCB standard substrate is **FR4** fiber glass. 1.6mm is std width. 
+
+* you can have only 2 **copper layers** or can have more layers of copper inside the pcb
 
 * 2 type of pads to attach the components:
 
   * **through hole components** -> 
 
 
-  * **surface mount components** or SMD -> can be smaller. Smallest ones are so small they are manufactured with robots
+    * **surface mount components** or SMD -> can be smaller. Smallest ones are so small they are manufactured with robots
+
+
 
 * **traces** or **tracks** are copper wires, take the color of the masking chemical
-
+* **solder mask** - masking chemical prevents oxidation of copper, also makes it easier to solder components by hand, protects from shorts (to some extent) between solder pads, also gives color 
 * **silkscreen** -> adds markings, lines and texts. Decoration or info for assembly or end user
 * **vias** are holes that interconnect layers
-* you can have only 2 **copper layers** or can have more layers of copper inside the pcb
-* **solder mask** - chemical gives color, also prevents oxidation and makes it easier to solder components by hand, protects from shorts (to some extent) between solder pads 
-* pcbs can be made of std **FR4** fiber glass. 1.6mm is std width. 
-* **copper fill** large areas of copper typically connected to grounds, protect from EMI. Connected to grounf via thermal reliefs (short tracks that connect pad to copper fill) 
+* **copper fill** large areas of copper typically connected to grounds, protect from EMI. Connected to ground via thermal reliefs (short tracks that connect pad to copper fill) 
 
 ## PCB design process
 
-Goal: creating the plans for a printed circuit design
-
-should be functional, manufacturable, beautiful
+Goal: creating the plans for a printed circuit design (PCB) which should be functional, manufacturable, beautiful
 
 need to know capabilities of your PCB manufacturer
 
@@ -102,11 +110,9 @@ export in format compatible with manufacturing. Gerber files: one per layer, con
 Options:
 
 1. Chemical etching - not recommended: laborious, toxic chemicals, requires ventilation
-2. Use online manufacturers: PCBWay NextPCB, Oshpark, WellPCB
+2. Use online manufacturers: PCBWay NextPCB, Oshpark, WellPCB, JLCPCB. Oshpask is good for beginners. Many more options in PCBway.
 
 2 layers is the minimum
-
-Oshpask is good for beginners. Many more options in PCBway 
 
 gerber file format is defined by company: https://ucamco.com
 
@@ -122,29 +128,21 @@ good source for info on gerber extensions: https://www.candorind.com/gerber-file
 
 ## Overview of KiCAD with an example project 
 
-Official Kicad repo: https://gitlab.com/kicad
+From the official Kicad repo: https://gitlab.com/kicad in [Kicad source code > kicad > demos folder](https://gitlab.com/kicad/code/kicad/-/tree/master/demos?ref_type=heads) we choose [pic_programmer.kicad](https://gitlab.com/kicad/code/kicad/-/tree/master/demos/pic_programmer?ref_type=heads)
 
-in the code, demos directory:
-
-https://gitlab.com/kicad/code/kicad/-/tree/master/demos?ref_type=heads
-
-probably demos folder already in your computer (in Windows: C:\Users\meheredia\AppData\Local\Programs\KiCad\9.0\share\kicad\demos) . 
-
-We choose `pic_programmer.kicad`
-
-https://gitlab.com/kicad/code/kicad/-/tree/master/demos/pic_programmer?ref_type=heads
+Note: demos folder usually already copied locally during installation: in [Windows]( C:\Users\meheredia\AppData\Local\Programs\KiCad\9.0\share\kicad\demos)  / in [Linux](). 
 
 3 files (text files, human readable)
 
-`kicad_pro` -> project
+`*.kicad_pro` -> project
 
-`kicad_pcb` -> layout info
+`*.kicad_pcb` -> layout info
 
-`kicad_ kicad_sch` -> schematic info
+`*.kicad_ kicad_sch` -> schematic info
 
-Can open each file individually, better to open the project as a whole opening the `kicad_pro` file or drag and drop
+Can open each file individually, better to open the project as a whole opening the `*.kicad_pro` file or drag and drop
 
-with project open, launch schematic editor with the button or double clicking on the `kicad_sch` file
+with the project open, launch schematic editor with the button or double clicking on the `*.kicad_sch` file
 
 ### Schematic editor
 
@@ -169,11 +167,9 @@ on left properties manager
 
 there are preset views, selection filters to help with targeting
 
-### 3D viewer
+There is a 3D viewer
 
 If I click on a component on one editor the other editor moves to the same component
-
-explore the web: made with kicad https://www.kicad.org/made-with-kicad/
 
 ### About...
 
@@ -195,13 +191,15 @@ Text Editor -> everything is a text file. Can also right click
 
 ### Tools
 
-can open apps in project manager or in this menu
+can open apps from project manager or from this menu
 
 ## Tour of the Apps
 
+![](./assets/Kicad_home.png)
+
 ### Schematic Editor
 
-Wires: green lines of named labels
+Wires: green lines or named labels
 
 Components
 
@@ -209,9 +207,7 @@ Symbols: the big boxes representing microcontrollers?
 
 ### PCB editor
 
-### 3d viewer
-
-specially useful for I/O elements e.g. pins
+3d viewer -> specially useful to check access for user interface elements e.g. connectors
 
 ### Symbol editor
 
@@ -283,7 +279,7 @@ Can also make your own templates
 
 Creates a project already prepopulated with certain things
 
-## Design Workflows
+## Design Workflow
 
 Two 7-step workflows. In reality not linear but iterative.
 
@@ -311,24 +307,22 @@ Configure view using buttons in left hand (type of cursor, snap to grid, units e
 
 #### 2. Symbols
 
-`a`  to bring symbol chooser
+Press `a` to bring up symbol chooser
 
-Select, place
-
-`r`to rotate
+Select symbol, place it, move it, `r`to rotate
 
 #### 3. Arrange annotate associate
 
-Since KiCAD8 annotation is automated (unique identifiers)
+Since KiCAD8 **annotation** is automated (unique identifiers)
 
-Arranging. 
+**Arranging**. 
 
-3 options to fix a symbol:
+3 options to fix a symbol add by mistake:
 
 1. delete and add again 
 2. double click to bring **Properties** window + **Change Symbols** button which also allows to change symbols in bulk
 
-Assign footprint. Can do with double click + properties window but better with 
+**Assign footprint.** Can do with double click + properties window but better with 
 
 **Assign Footprints**. Filter by library and pin count,  symbol footprint is unreliable.
 
@@ -403,9 +397,9 @@ YT video: https://www.youtube.com/watch?v=Q_API66fq4I
 
 trick that uses exporting to STEP + manually copying the silkscreen as an image
 
-# Design principles
+## Design principles
 
-## Schematic symbols
+### Schematic symbols
 
 American Std IEEE (or _US in KiCAD libraries)
 
@@ -417,7 +411,7 @@ This seems a good resource: https://www.raypcb.com/electronic-circuit-symbols/
 
 See also: [IEEE standard (PDF)](./assets/ansii_graphic_symbols_for_electrical_and_electronics_diagrams_1993.pdf)
 
-##  PCB materials
+###  PCB materials
 
 FR4 most common, multilayer: fiberglass epoxy composite, FR means flame retardant
 
@@ -439,7 +433,7 @@ Other materials:
 | Flex (PI/PET) | Polyimide or PET    | >200 / <100 | Flexible         | Wearables, foldables, cameras               |
 | MCPCB         | Varies (Al/Cu core) | High        | 1–2 layers       | LEDs, power supplies, thermal management    |
 
-## Traces or tracks
+### Traces or tracks
 
 Connect the pads
 
@@ -449,23 +443,25 @@ we can control width, height, and route
 
 Take the color of the solder mask
 
-## Keep-out areas
+### Keep-out areas
 
 can be marked on one or all layers or faces. E.g. to prevent interferance with an antenna, provide user access, install a screen etc
 
-## Pads and holes
+### Pads and holes
 
 2 types: 
 
-TH through hole pads connect electrically front and back
+* TH through hole pads connect electrically front and back. Popular for hobbyists (components are easier to manipulate)
 
-SMD surface mounted pads exist on a single layer. Most common in industry, allow smaller components installed automatically
+* SMD surface mounted pads exist on a single layer. Most common in industry, allow smaller components installed automatically
 
-round, rectangular or oval
+usually round, can be rectangular or oval
+
+normally plated, NPTH holes are not so common
 
 ![](./assets/pads.png)
 
-## Vias
+### Vias
 
 hole with inside plated with copper. They are smaller so component pins don't fit and have no pad so you cannot solder components
 
@@ -473,19 +469,19 @@ can be through, blind, or buried. micro vias are made with laser.
 
 ![](./assets/vias.png)
 
-## Annular ring
+### Annular ring
 
 width is the minimum distance between hole edge and pad edge. If drill is not centered there can be a tangency or even a breakout
 
-## Solder mask
+### Solder mask
 
 thin layer of polymer that prevents oxidation and solder bridges between pads
 
-## Silkscreen
+### Silkscreen
 
 useful information and also style
 
-## Drill bit and drill hit
+### Drill bit and drill hit
 
 drill bits typically .3, .6, 1.2mm guided by CNC 
 
@@ -493,17 +489,17 @@ For very small holes (e.g. micro vias) made with laser
 
 drill hit: location where the drill contacts the PCB and makes a hole
 
-## Surface mounted device
+### Surface mounted devices
 
 allow manufacturing cheaper smaller PCBs (automatic assy)
 
-## Gold fingers
+### Gold fingers
 
 gold plated connectors at the edge of a PCB 
 
 Allow connecting a PCB to a slot
 
-## Panel
+### Panel
 
 PCBs are manufactured in large panels 
 
@@ -511,7 +507,7 @@ then populated with Pick and Place machine
 
 then cut, leaving break away points
 
-## Solder past and paste stencil
+### Solder past and paste stencil
 
 ![](./assets/solder_paste.png)
 
@@ -519,5 +515,5 @@ At large scale the paste is applied with a stainless steel stencil
 
 Can buy reflow ovens to install smd components at home
 
-## Pick and place machine
+### Pick and place machine
 
