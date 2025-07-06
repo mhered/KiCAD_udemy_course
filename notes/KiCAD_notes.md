@@ -515,7 +515,7 @@ then cut, leaving break away points
 
 ![](./assets/solder_paste.png)
 
-At large scale the paste is applied with a stainless steel component
+At large scale the paste is applied with a stainless steel stencil
 
 Can buy reflow ovens to install smd components at home
 
