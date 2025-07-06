@@ -291,9 +291,11 @@ Two 7-step workflows. In reality not linear but iterative.
 
 ![](./assets/Schematic_design_workflow.png)
 
-![](./assets/Layout_workflow.png)
+![](./assets/layout_workflow.png)
 
 ## Project 1: LED Torch 
+
+![](./assets/my_1st_PCB.gif)
 
 ### Schematic Design
 

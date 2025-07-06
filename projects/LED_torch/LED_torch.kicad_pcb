@@ -1139,6 +1139,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/home/mhered/KiCAD_udemy_course/libraries/3D/B3F-1056.stp"
+			(offset
+				(xyz 3.2 -2.2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
