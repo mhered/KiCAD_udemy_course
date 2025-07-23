@@ -6,12 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "LED Torch")
-		(date "2025-07-05")
-		(rev "0.1")
-		(company "Sevillabot")
-		(comment 1 "Project 1 ")
-		(comment 2 "KiCAD like a Pro - Udemy Course")
-		(comment 3 "A basic PCB project")
+		(date "2025-07-23")
+		(rev "0.3")
+		(company "Manuel Heredia - Sevillabot")
+		(comment 1 "A basic PCB project of a LED torch")
+		(comment 2 "KiCAD like a Pro - Udemy Course (Project 1)")
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
