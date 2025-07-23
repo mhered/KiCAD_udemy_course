@@ -98,7 +98,7 @@ can open apps from project manager or from this menu
 
 Common settings and preferences for different apps are together
 
-**Preferences** > **configure paths**
+**Preferences** > **Configure Paths**
 
 2+1 important paths: symbols, footprints and 3dmodels
 
@@ -110,7 +110,7 @@ Symbols libraries, Footprint libraries etc apparently you can define a project p
 
 ## About KiCAD
 
-copy version information to repost issues
+Copy version information to repost issues
 
 
 
@@ -125,19 +125,135 @@ Controls:
 * double-click on symbol to bring its properties, association with a footprint, unique ID etc
   can check/uncheck features eg to disable footprint values
 
-Can have nested schematics sheets. 
+### Left toolbar
 
-left pane: Hierarchy Navigator to see sheets, Properties manager shows properties without double clicking on components
+[(View left toolbar)](./assets/left_toolbar.png)
 
-can go to PCB editor from main window or from green button in schematics editor window
+Grid on/off, Grid overrides, units, cursor crosshairs, toggle invisible pins, select line mode (free, 90degrees, 45 degrees), auto annotation. Most options also accesible through **Menu** > **Preferences** > **Preferences...** > **Schematic Editor** > **Display Options**
 
---
+Also in **Preferences** > **Schematic Editor** > **Field Name Template** can create custom names for components can be made visible or not
 
-Wires: green lines or named labels
+Can have nested schematics sheets > **Hierarchy Navigator** to see sheets. 
 
-Components
+**Properties manager** shows properties without double clicking on components
 
-Symbols: the big boxes representing microcontrollers?
+### Top toolbar 
+
+[(View top toolbar)](./assets/top_toolbar.png)
+
+Actions in top toolbar can also be accessed through the menus
+
+**Save**
+
+**Schematic setup** > advanced settings such as field name tamplates, elecrical rules. 
+
+**Page settings** > to configure drawing sheet
+
+**Print**, or **Plot** to export drawings to a file
+
+Paste, Undo / Redo
+
+**Find** and **Replace** text
+
+**Refresh** if corrupt (no longer useful since KiCAD 6) or **Zoom**
+
+**Navigate** between sheet hierarchy or history
+
+**Rotate** and **Flip** 
+
+**Symbol Editor**
+
+**Symbol Browser**
+
+**Footprint Editor** > create footprints 
+
+**Symbol Annotator** > annotate automatically
+
+**Electrical Rules Checker** > errors are more critical than warnings. Can be customized via the Schematic Setup.
+
+**Footprint assignment** > associate footprints to symbols
+
+**Edit Symbol Fields** > allows bulk editing tool in spreadsheet. Can add custom fields, click visible to show in the schematic design
+
+**BOM** > generate BOM
+
+**PCB editor** > can go to PCB editor from main window or from green button in schematics editor window
+
+**Kipython** ?
+
+### Right toolbar 
+
+[(View right toolbar)](./assets/right_toolbar.png)
+
+**Selector**
+
+**Highlight nets**: highlights wires in the same net, green lines or named labels
+
+**Symbol Chooser** (`a`): select and drop symbol
+
+**Power Symbol chooser** (`p`): narrows to power symbols
+
+**Draw Wires** (`w`)
+
+**Draw Buses** (`b`) > and **Entry/Exit Points** (`z`)
+
+**No connect** (`q`) > flag unconnected pins
+
+**Junctions** (`j`) >
+
+Labels: **Net labels** (name a net of all pins connected to avoid too many wires, in same sheet), **Directive Labels**, **Global Labels** (accessible across sheets avoid if possible), **Hierarchical Labels** (preferred between sheets) 
+
+**Hierarchical sheets** > allows creating nested sheets, can expose pins to other sheets
+
+Other graphic tools (e.g. **Insert graphic** from **Menu** > **Place** or  **Interactive delete**  from **Menu** > **Edit** )
+
+### Finding symbols
+
+`a` or click on **Add Symbol** on right panel
+
+Alternatively: Symbol Library Brower button in top panel or is more extensive
+
+There are many libraries in the default installation
+
+Path for symbol libraries: **Preferences** > **Manage Symbol Libraries** > you may have **Global** and **Project Specific** Libraries, may add libraries downloaded from internet in `.lib` format with the folder icon 
+
+If a symbol is missing you may want to:
+
+1. add 3rd party libraries, or
+2. create the symbol yourself
+
+### Adding 3rd party libraries
+
+may google kicad symbol for...
+
+dedicated services: kicad publishes in github there are frequent updates
+
+`.lib` contains the symbol itself
+
+`.dcm` contain symbol metadata
+
+ `.kicad_mod` contain the footprint
+
+[Ultra Librarian](https://www.ultralibrarian.com/)
+
+[Octopart](https://octopart.com/en)
+
+[Snapeda](https://www.snapeda.com/)
+
+[DigiKey](https://www.digikey.es/en/resources/design-tools/kicad) and [SparkFun](https://github.com/sparkfun/SparkFun-KiCad-Libraries) also have KiCAD libraries in github that can be imported as a whole not one by one
+
+### Creating custom symbols
+
+elements of a symbol:
+
+* rectangle solid color
+* pins placed with a certain logic: VCC top, GND bottom other pins to the sides grouped by functions e.g. not mixing inputs and outputs
+* pins have number, name, and maybe a symbol
+* designator (U for integrated circuits iaw IEEE 219 75)
+* name
+* in properties: footprint, datasheet, maybe custom fields 
+
+start with a datasheet
 
 ## PCB editor
 
@@ -186,4 +302,6 @@ to edit the drawings
 also dedicated lecture
 
 ## Plugin manager
+
+
 
