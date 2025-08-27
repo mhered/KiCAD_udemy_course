@@ -1238,7 +1238,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OS102011MS2QN1:OS102011MS2QN1"
+		(symbol "MH_Slide_Switch_OS102011MS2QN1:OS102011MS2QN1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1712,100 +1712,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OS102011MS2QN1:OS102011MS2QN1")
-		(at 80.01 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "146a12ba-624a-4097-b7b4-8741eaec18d8")
-		(property "Reference" "S1"
-			(at 85.09 56.0069 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OS102011MS2QN1"
-			(at 85.09 58.5469 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "OS102011MS2QN1:SW_OS102011MS2QN1"
-			(at 80.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
-			(at 80.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "C&K"
-			(at 80.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "45f174f1-55d1-44a1-9f79-6e7332ee8628")
-		)
-		(pin "2"
-			(uuid "ca14215e-3123-4752-bcba-e8c8d7a01b56")
-		)
-		(pin "1"
-			(uuid "5be3d0d8-388b-4873-88c8-6a23d71f31e4")
-		)
-		(instances
-			(project ""
-				(path "/7d501a1c-ecfc-4b89-8a82-881c56ebfdf1"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 172.72 127 180)
 		(unit 1)
@@ -1901,7 +1807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 111.76 75.2348 0)
 			(effects
 				(font
@@ -1969,7 +1875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
 			(at 53.34 64.516 0)
 			(effects
 				(font
@@ -2260,7 +2166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 107.188 133.35 90)
 			(effects
 				(font
@@ -2330,7 +2236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 58.928 129.54 90)
 			(effects
 				(font
@@ -2468,7 +2374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 75.2348 0)
 			(effects
 				(font
@@ -2538,7 +2444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 107.188 149.86 90)
 			(effects
 				(font
@@ -2895,7 +2801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.03 117.1448 0)
 			(effects
 				(font
@@ -2932,6 +2838,100 @@
 			(project "breadboard_power_supply"
 				(path "/7d501a1c-ecfc-4b89-8a82-881c56ebfdf1"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MH_Slide_Switch_OS102011MS2QN1:OS102011MS2QN1")
+		(at 77.47 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8fda229-fcf3-43b9-84c3-895af1d135e9")
+		(property "Reference" "S1"
+			(at 81.28 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OS102011MS2QN1"
+			(at 81.28 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Slide_Switch:SW_OS102011MS2QN1"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "75592d68-fccd-4c84-b49b-cbf99bfa7eef")
+		)
+		(pin "1"
+			(uuid "37f7bca1-71dc-4e08-8e4f-9685f6714b83")
+		)
+		(pin "2"
+			(uuid "64842376-afc0-422a-8857-55ece275e967")
+		)
+		(instances
+			(project ""
+				(path "/7d501a1c-ecfc-4b89-8a82-881c56ebfdf1"
+					(reference "S1")
 					(unit 1)
 				)
 			)
