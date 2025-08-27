@@ -1238,7 +1238,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MH_Slide_Switch_OS102011MS2QN1:OS102011MS2QN1"
+		(symbol "MH_Slide_Switch:OS102011MS2QN1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2844,7 +2844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MH_Slide_Switch_OS102011MS2QN1:OS102011MS2QN1")
+		(lib_id "MH_Slide_Switch:OS102011MS2QN1")
 		(at 77.47 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2871,7 +2871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Slide_Switch:SW_OS102011MS2QN1"
+		(property "Footprint" "MH_Slide_Switch:SW_OS102011MS2QN1"
 			(at 77.47 59.69 0)
 			(effects
 				(font

@@ -19,9 +19,6 @@
 *.pcb-prl
 **/fp-info-cache
 
-**/fp-lib-table
-**/sym-lib-table
-
 __pycache__/
 
 # Ignore build directories
