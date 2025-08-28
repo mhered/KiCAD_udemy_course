@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MH_Slide_Switch")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_Slide_Switch")(options "")(descr ""))
+)
