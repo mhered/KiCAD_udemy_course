@@ -140,7 +140,7 @@ Thumbs.db
 - [x]  Project has local symbol & footprint libs committed.
 - [x]  All library paths are relative via `${KIPRJMOD}`.
 - [x]  Project `sym-lib-table` & `fp-lib-table` committed.
-- [ ]  3D models use relative paths; big ones tracked with Git LFS.
+- [x]  3D models use relative paths; big ones tracked with Git LFS.
 - [ ]  External libs come in via submodules (or vendored snapshots).
 - [x]  `.gitignore` ignores only junk, not your libraries.
 - [ ]  Optional CI runs KiCad checks.

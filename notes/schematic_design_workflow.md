@@ -45,6 +45,12 @@ Since KiCAD8 **annotation** is automated (unique identifiers)
 
 **Assign footprint**:
 
+Footprint associations is typically the most time-consuming step (together with wiring)
+
+Consists of selecting footprints that match the component you have or plan to buy. 
+
+Advice: measure dimensions of outline, pads and double check it.
+
 * **Double-click** on symbol > in **Properties** window >Click on the library symbol on the **Footprint** 
 
 ![](./assets/change_footprint.png)

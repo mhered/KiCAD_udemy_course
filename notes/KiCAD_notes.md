@@ -27,7 +27,7 @@ The course is iterative, introducing concepts and then going through them again 
   - [Manufacturing PCBs](manufacturing_PCBs.md)
 - [Project 1: LED Torch](../projects/LED_torch/README.md) 
 
-![](./assets/my_1st_PCB.gif)
+![](../projects/LED_torch/assets/my_1st_PCB.gif)
 
  
 

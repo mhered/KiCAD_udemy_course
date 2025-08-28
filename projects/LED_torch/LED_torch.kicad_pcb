@@ -100,7 +100,7 @@
 		(property "Reference" "BT1"
 			(at 0 7.62 0)
 			(layer "F.SilkS")
-			(uuid "605cf04b-5d8f-4ed9-bc2a-3ea73481908b")
+			(uuid "83a036bf-8c76-4c3a-b5cb-089932df40f5")
 			(effects
 				(font
 					(size 1 1)
@@ -111,7 +111,7 @@
 		(property "Value" "CR2032 Bat"
 			(at 0.1 -10.7 0)
 			(layer "F.SilkS")
-			(uuid "96ab7e78-3567-4aa9-a8de-ad49dc56ba20")
+			(uuid "ce9c136c-fb63-4fd8-834e-1dcd84198454")
 			(effects
 				(font
 					(size 1 1)
@@ -124,7 +124,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d7060ae0-b716-4679-a16d-433c1e83979a")
+			(uuid "d9b92570-65a2-4d3c-b313-f5d5820edad0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,7 +137,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2c65741-407d-4916-b332-068e5e9cfb09")
+			(uuid "de85a98b-667f-402a-8093-75d6e1031251")
 			(effects
 				(font
 					(size 1.27 1.27)
