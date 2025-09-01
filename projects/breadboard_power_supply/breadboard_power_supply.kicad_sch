@@ -1956,7 +1956,7 @@
 		(uuid "40f927f4-7acb-4008-ab45-caae9e70f3d6")
 	)
 	(junction
-		(at 179.07 71.12)
+		(at 180.34 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "609d0ecf-b228-4d16-ad15-9209f996ad63")
@@ -1974,7 +1974,7 @@
 		(uuid "7c21c780-fd3d-4335-be4b-0fddf97cb43b")
 	)
 	(junction
-		(at 184.15 59.69)
+		(at 185.42 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91e5a2d2-8989-4fdd-9dc0-7d67b3189258")
@@ -2185,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 62.23) (xy 190.5 62.23)
+			(xy 180.34 62.23) (xy 190.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 190.5 71.12)
+			(xy 180.34 71.12) (xy 190.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2245,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 46.99) (xy 184.15 59.69)
+			(xy 185.42 46.99) (xy 185.42 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2255,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 46.99) (xy 184.15 46.99)
+			(xy 190.5 46.99) (xy 185.42 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2285,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 62.23) (xy 179.07 71.12)
+			(xy 180.34 62.23) (xy 180.34 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2295,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 68.58) (xy 190.5 68.58)
+			(xy 185.42 68.58) (xy 190.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2425,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 179.07 77.47)
+			(xy 180.34 71.12) (xy 180.34 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2475,7 +2475,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 59.69) (xy 190.5 59.69)
+			(xy 185.42 59.69) (xy 190.5 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2635,13 +2635,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 59.69) (xy 184.15 68.58)
+			(xy 185.42 59.69) (xy 185.42 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "faf4e407-7059-439a-a5dd-89bd93ee8ce1")
+	)
+	(label "PWR_input"
+		(at 48.26 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "184551ab-eb3f-42c4-a429-650b1cf7088b")
 	)
 	(label "3.3V"
 		(at 190.5 49.53 180)
@@ -2652,6 +2662,16 @@
 			(justify right bottom)
 		)
 		(uuid "18469944-241f-4ff6-931f-c09907c144c0")
+	)
+	(label "PWR_output"
+		(at 185.42 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a4bd1af-81ac-4784-8a49-91e29d0ce5a6")
 	)
 	(label "3.3V"
 		(at 191.77 100.33 180)
@@ -2703,6 +2723,16 @@
 		)
 		(uuid "a5be4d84-1ed5-42da-ac40-84800841257d")
 	)
+	(label "PWR_output"
+		(at 185.42 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be8f34de-2a91-4ab6-bbdc-7ec0c9177c1b")
+	)
 	(label "12V"
 		(at 54.61 102.87 0)
 		(effects
@@ -2725,7 +2755,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 77.47 0)
+		(at 180.34 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2734,7 +2764,7 @@
 		(fields_autoplaced yes)
 		(uuid "02af3f34-b0a0-458c-a069-86cd2652f3a7")
 		(property "Reference" "#PWR03"
-			(at 179.07 83.82 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 82.55 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 77.47 0)
+			(at 180.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 77.47 0)
+			(at 180.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 77.47 0)
+			(at 180.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,8 +3933,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 80.01 129.54 0)
-		(mirror y)
+		(at 80.01 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3912,7 +3941,7 @@
 		(dnp no)
 		(uuid "be25f63a-2623-47b1-bcf4-cab386b9da74")
 		(property "Reference" "D1"
-			(at 81.5975 137.16 0)
+			(at 81.5975 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3949,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 81.5975 134.62 0)
+			(at 81.5975 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
