@@ -1,0 +1,21 @@
+LCSC Part Number,Manufacture Part Number,Manufacturer,Customer NO.,Package,Description,RoHS,Quantity,Unit Price(€),Ext.Price(€),Estimated lead time (business days),Date Code / Lot No.,Status
+C780769,AP63203WU-7,DIODES,Kinect_lite_9,TSOT-23-6,Buck Fixed 2A 3.3V 3.8V~32V TSOT-23-6 DC-DC Converters ROHS,YES,10,0.2444,2.44,,,-
+C22438129,HX PM1.27-2x5P ZC,hanxia,Kinect_lite_15b,"Through Hole,P=1.27mm","1.27mm 1.27mm 2 1A Gold Phosphor Bronze -40℃~+105℃ 10P Through Hole 2x5P 4.3mm Top Square Hole Through Hole,P=1.27mm Female Headers ROHS",YES,10,0.1272,1.27,,,-
+C5199809,RH-5119,ronghe,Kinect_lite_10c,-,Test Points / Test Rings ROHS,YES,5,0.0693,0.35,,,-
+C5199803,RH-5003,ronghe,Kinect_lite_11b,-,Test Points / Test Rings ROHS,YES,5,0.071,0.36,,,-
+C5199804,RH-5004,ronghe,Kinect_lite_10b,-,Test Points / Test Rings ROHS,YES,5,0.0721,0.36,,,-
+C5199806,RH-5116,ronghe,Kinect_lite_11,-,Test Points / Test Rings ROHS,YES,5,0.0691,0.35,,,-
+C5199802,RH-5002,ronghe,Kinect_lite_10,-,Test Points / Test Rings ROHS,YES,5,0.0636,0.32,,,-
+C5199801,RH-5001,ronghe,Kinect_lite_13,-,Test Points / Test Rings ROHS,YES,5,0.0652,0.33,,,-
+C5277086,RH-5000,ronghe,Kinect_lite_12,-,Test Points / Test Rings ROHS,YES,5,0.0649,0.32,,,-
+C5199159,LESD5D5.0CT1G-ES,ElecSuper,Kinect_lite_7,SOD-523,8A 80W 10V 5.8V Bidirectional 5V SOD-523 ESD and Surge Protection (TVS/ESD) ROHS,YES,20,0.0138,0.28,,,-
+C82314,LQM2HPN4R7MG0L,muRata,Kinect_lite_6,1008,1.1A 4.7uH ±20% 138mΩ 1008 Inductors (SMD) ROHS,YES,20,0.0609,1.22,,,-
+C2071285,LM3670MFX-1.8/NOPB,TI,Kinect_lite_8,SOT-23-5,Buck Fixed 2.5V~5.5V 1.8V 350mA SOT-23-5 DC-DC Converters ROHS,YES,10,0.6502,6.50,,,-
+C2988369,GT-USB-7010ASV,G-Switch,Kinect_lite_14,SMD,"USB 2.0 3A 1 Surface Mount, Right Angle 16P Female -40℃~+85℃ Type-C SMD USB Connectors ROHS",YES,20,0.0705,1.41,,,-
+C7463411,LM317,IDCHIP,Breadboard_power_supply_01,TO-220,"1.5A Adjustable 1.2V~37V Positive 40V TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",YES,10,0.2145,2.15,,,-
+C7432180,LM7805T,HGSEMI,Breadboard_power_supply_02,TO-220-3,"62dB@(120Hz) 1.2A Fixed 5V Positive 35V TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",YES,10,0.2082,2.08,,,-
+C160404,SM04B-SRSS-TB(LF)(SN),JST,QWIC,"SMD,P=1mm,Surface Mount,Right Angle","1x4P 4P SH Tin 4 -25℃~+85℃ 1A 1 1mm Copper Alloy Surface Mount, Right Angle SMD,P=1mm,Surface Mount,Right Angle Wire To Board Connector ROHS",YES,10,0.1664,1.66,,,-
+C2071056,AP63205WU-7,DIODES,12V-5V buck,TSOT-23-6,Buck Fixed 2A 5V 3.8V~32V TSOT-23-6 DC-DC Converters ROHS,YES,6,0.3232,1.94,,,-
+C49558,MCP2551T-I/SN,MICROCHIP,CAN transceiver,SOIC-8,1Mbps CAN Transceiver SOIC-8 CAN Transceivers ROHS,YES,6,1.0696,6.42,,,-
+C132230,ATMEGA328PB-AU,MICROCHIP,chip + CAN,TQFP-32(7x7),AVR 20MHz TQFP-32(7x7) Microcontrollers (MCU/MPU/SOC) ROHS,YES,6,1.6638,9.98,,,-
+C545417,"TB67H450FNG,EL",TOSHIBA,H bridge,HSOP-8-EP,HSOP-8-EP Brushed DC Motor Drivers ROHS,YES,6,0.6242,3.75,,,-
