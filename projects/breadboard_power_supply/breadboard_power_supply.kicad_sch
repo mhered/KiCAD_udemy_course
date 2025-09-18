@@ -1922,7 +1922,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 0d064a3e-292a-414b-ab8a-d96baeea5f6e)
 	)
@@ -3682,7 +3683,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 1d44cdf6-82d1-461c-9c79-92780014aa9b)
 	)
@@ -3703,7 +3705,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 2472a316-e2c7-439e-8ea6-15cf47eb7260)
 	)
@@ -3724,7 +3727,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 395a639c-b072-46b3-90ce-a498776c5057)
 	)
@@ -3745,7 +3749,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 5618a240-15b8-4395-b42f-9b61a203e2f9)
 	)
@@ -3767,7 +3772,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 6e29be50-64a6-471b-b979-8be76ee91411)
 	)
@@ -3780,7 +3786,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 8b831ce3-ef8f-4bb9-9a7b-458a63fe2557)
 	)
@@ -3808,7 +3815,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 964fbc06-e99d-46f2-9a5f-31231d2c51ba)
 	)
@@ -3830,7 +3838,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 9a621b95-ac7d-45f5-adc8-37f8faed7179)
 	)
@@ -3851,7 +3860,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid cf1baf02-d7f9-4f61-a814-b660a7392e5f)
 	)
@@ -3886,7 +3896,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid d1d8e6fc-6668-4a1a-b7cb-946e7c2ad5a0)
 	)
@@ -3908,7 +3919,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid d8747abb-cbd2-4378-8ee5-00a1a4264124)
 	)
@@ -3929,7 +3941,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid f6b9afd8-f9b2-4952-997f-52cf0725fa8a)
 	)
@@ -3950,7 +3963,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid ff47fbcc-17ed-486d-8316-2106f7d02e7d)
 	)
@@ -4795,7 +4809,7 @@
 		)
 		(uuid "18469944-241f-4ff6-931f-c09907c144c0")
 	)
-	(label "PWR_output"
+	(label "PWR_output_B"
 		(at 198.12 115.57 180)
 		(effects
 			(font
@@ -4824,6 +4838,16 @@
 			(justify left bottom)
 		)
 		(uuid "62cc396c-e37a-4f0b-83b6-cd5aca105097")
+	)
+	(label "PWR_output_A"
+		(at 198.12 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ac37250-fa27-4cab-9f90-38c9c237b468")
 	)
 	(label "3.3V"
 		(at 130.81 120.65 0)
@@ -4854,16 +4878,6 @@
 			(justify right bottom)
 		)
 		(uuid "a5be4d84-1ed5-42da-ac40-84800841257d")
-	)
-	(label "PWR_output"
-		(at 198.12 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be8f34de-2a91-4ab6-bbdc-7ec0c9177c1b")
 	)
 	(label "12V"
 		(at 60.96 120.65 0)
@@ -5224,7 +5238,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10uF"
 			(at 78.74 57.1499 0)
 			(effects
 				(font
@@ -5439,7 +5453,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 209.55 102.87 0)
 			(effects
 				(font
@@ -5585,7 +5599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 208.28 52.07 0)
 			(effects
 				(font
@@ -5656,7 +5670,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7805_TO220"
+		(property "Value" "LM7805.TO220"
 			(at 95.25 43.18 0)
 			(effects
 				(font
@@ -5728,7 +5742,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330 Ohms"
+		(property "Value" "330R"
 			(at 107.95 129.5399 0)
 			(effects
 				(font
@@ -5798,7 +5812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330 Ohms"
+		(property "Value" "330R"
 			(at 69.85 135.8899 0)
 			(effects
 				(font
@@ -5945,7 +5959,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1uF"
 			(at 111.76 57.1499 0)
 			(effects
 				(font
@@ -6015,7 +6029,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560 Ohms"
+		(property "Value" "560R"
 			(at 102.87 142.2399 0)
 			(effects
 				(font
@@ -6246,7 +6260,7 @@
 				)
 			)
 		)
-		(property "Value" "LM317_TO-220"
+		(property "Value" "LM317.TO220"
 			(at 91.44 116.84 0)
 			(effects
 				(font
@@ -6397,7 +6411,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "1uF"
 			(at 124.46 135.8899 0)
 			(effects
 				(font

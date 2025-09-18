@@ -43,9 +43,9 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.8,
-        "silk_text_size_v": 0.8,
-        "silk_text_thickness": 0.16,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -528,7 +528,7 @@
       },
       {
         "netclass": "power_output",
-        "pattern": "/PWR_output*"
+        "pattern": "/PWR_output"
       },
       {
         "netclass": "power_output",
@@ -549,7 +549,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
