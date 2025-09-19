@@ -30,6 +30,10 @@ USB-C CAD model from https://www.3dcontentcentral.com/download-model.aspx?catalo
 
 <img src="./assets/case_v3.png" style="zoom:33%;" />
 
-## PCB
+## Layout
+
+<img src="./assets/breadboard_power_supply_JLCPCB.png" style="zoom:33%;" />
+
+## 3D
 
 <img src="./assets/PCB_v1.png" style="zoom: 33%;" />
