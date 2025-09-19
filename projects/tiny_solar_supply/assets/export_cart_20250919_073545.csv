@@ -1,0 +1,5 @@
+﻿Index,LCSC#,MPN,Manufacturer,Package,Customer #,Description,RoHS,Quantity,MOQ,Multiple,Unit Price($),Extended Price($),Product Link
+1,C154879,AP3015AKTR-G1,DIODES,SOT-23-5,tiny_solar_IC1,Boost Fixed 3.3V 1V~12V 100mA SOT-23-5 DC-DC Converters ROHS,yes,5,5,5,0.2909,1.45,https://www.lcsc.com/product-detail/C154879.html
+2,C83852,SS14,onsemi,SMA(DO-214AC),tiny_solar_D1_D2,40V 500mV@1A 1A SMA(DO-214AC) Schottky Diodes ROHS,yes,10,5,5,0.1137,1.14,https://www.lcsc.com/product-detail/C83852.html
+3,C916396,2N7002,JSMSEMI,SOT-23,tiny_solar_T1,"60V 115mA 1.7Ω@5V,50mA 200mW 2.5V 1 N-Channel SOT-23 MOSFETs ROHS",yes,50,50,50,0.0083,0.42,https://www.lcsc.com/product-detail/C916396.html
+4,C42429085,ZNR252012ST100M,ZE,1008,tiny_solar_L1,680mA 10uH Magnetic Shielded Inductor ±20% 880mA 1008 Power Inductors ROHS,yes,5,5,5,0.0178,0.09,https://www.lcsc.com/product-detail/C42429085.html

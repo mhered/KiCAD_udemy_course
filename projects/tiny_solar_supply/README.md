@@ -12,13 +12,13 @@ Inspired by [this Elektor article](https://www.elektormagazine.com/magazine/elek
 
 R1, R4 = 1 MΩ
 
-R2 = 604 kΩ, 1%
+R2 = 604 kΩ, 1% >> Note: take care of high precision
 
 R3 = 10 kΩ
 
 **Capacitors** 
 
-C1 = 4.7 µF, 50 V, X7R (0805)
+C1 = 4.7 µF, 50 V, X7R (0805) >> X7R is general purpose ceramic capacitor
 
 C2 = 22 µF, 10 V, X7R (1206)
 
@@ -30,11 +30,11 @@ L1 = 10 µH, 680 mA
 
  **Semiconductors** 
 
-D1, D2 = SS14 (DO-214AC)
+D1, D2 = SS14 (DO-214AC) >> Shottky
 
 IC1* = AP3015 or AP3015A 
 
-T1 = 2N7002 (SOT-23)
+T1 = 2N7002 (SOT-23) >> MOSFET
 
  **Miscellaneous** 
 
