@@ -6,3 +6,4 @@ package 1008
 
 
 
+CAD model found searching SNAPEDA for: ASPI-0630LR-100M-T15

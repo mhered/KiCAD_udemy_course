@@ -43,3 +43,7 @@ K1, K2, K3 = pin header, 1 row, 2 contacts, 2.54 mm pitch
 K4 = pin header, 1 row, 2 contacts, right-angle, 2 mm pitch
 
 (* Note: The AP3015 micropower step-up DC/DC converter from Diodes, Inc. IC1 is the heart of the circuit. There's a choice between the A-version, which works with input voltages as low as 1 V (and up to 12 V) and can deliver 100 mA, and the non-A version, which starts at 1.2 V, but can supply up to 350 mA)
+
+![](./assets/PCB_v1_layout.png)
+
+![](./assets/PCB_v1_3D.png)
