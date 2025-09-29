@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "MH_AP3015A")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_AP3015A/AP3015AKTR-G1.kicad_sym")(options "")(descr ""))
   (lib (name "MH_L1")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_L_10uH_680mA_ul_ASPI-0630LR-100M-T15/2025-09-18_23-46-38.kicad_sym")(options "")(descr ""))
+  (lib (name "MH_DS13375")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_DS1337S/DS1337S_.kicad_sym")(options "")(descr ""))
+  (lib (name "MH_ATMEGA328")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_ATMEGA328-AU/ATMEGA328P-AU.kicad_sym")(options "")(descr ""))
 )

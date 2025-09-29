@@ -9,3 +9,7 @@ The design covers the key building blocks of a typical datalogger system:
 - **EEPROM** – nonvolatile memory to store logged data.
 - **Power supply** – provides stable operation from external power or batteries.
 - **Programming / Debug headers** – for uploading firmware and retrieving logged data (??)
+
+DS1337S
+
+ATMEGA328P-AU from SNAPEDA
