@@ -12,8 +12,8 @@
 		(date "2025-09-29")
 		(rev "0.1")
 		(company "Manuel Heredia - sevillabot")
-		(comment 1 "Description line 2")
-		(comment 2 "Description line 1")
+		(comment 1 "description line 2")
+		(comment 2 "description line 1")
 		(comment 3 "KiCAD like a Pro - Udemy Course (Project XX)")
 	)
 	(layers
@@ -126,17 +126,6 @@
 		)
 	)
 	(net 0 "")
-	(gr_rect
-		(start 145 166)
-		(end 177 198)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "f7dc7c18-e20d-4c5f-b5ae-1c7adc0e4c23")
-	)
 	(gr_poly
 		(pts
 			(xy 164.240633 178.874209) (xy 164.293551 178.874209) (xy 164.293551 178.900668) (xy 164.320008 178.900668)
@@ -417,6 +406,17 @@
 		(fill yes)
 		(layer "Dwgs.User")
 		(uuid "ed06de76-3174-4a0d-9e35-27a0c96c1f03")
+	)
+	(gr_rect
+		(start 145 166)
+		(end 177 198)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "f7dc7c18-e20d-4c5f-b5ae-1c7adc0e4c23")
 	)
 	(gr_poly
 		(pts

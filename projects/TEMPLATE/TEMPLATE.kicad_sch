@@ -5,12 +5,12 @@
 	(uuid "7bf4f70a-c379-4f6a-bba1-afc53ccea3c5")
 	(paper "A4")
 	(title_block
-		(title "Project title")
+		(title "project title")
 		(date "2025-09-29")
 		(rev "0.1")
 		(company "Manuel Heredia - sevillabot")
-		(comment 1 "Description Line 2")
-		(comment 2 "Description Line 1")
+		(comment 1 "description line 2")
+		(comment 2 "descrition line 1")
 		(comment 3 "KiCAD like a Pro - Udemy Course (Project XX)")
 	)
 	(lib_symbols)
@@ -1998,8 +1998,8 @@
 		(uuid eb64d4c3-0944-49b3-9306-9bc69dc89125)
 	)
 	(rectangle
-		(start 145.415 166.37)
-		(end 175.895 196.85)
+		(start 145.288 166.116)
+		(end 177.038 197.993)
 		(stroke
 			(width 0)
 			(type default)
