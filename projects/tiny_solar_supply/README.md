@@ -44,6 +44,20 @@ K4 = pin header, 1 row, 2 contacts, right-angle, 2 mm pitch
 
 (* Note: The AP3015 micropower step-up DC/DC converter from Diodes, Inc. IC1 is the heart of the circuit. There's a choice between the A-version, which works with input voltages as low as 1 V (and up to 12 V) and can deliver 100 mA, and the non-A version, which starts at 1.2 V, but can supply up to 350 mA)
 
-![](./assets/PCB_v1_layout.png)
+## v0.1 Sept'25
 
-![](./assets/PCB_v1_3D.png)
+![](./assets/tiny_solar_layout_v0.1.png)
+
+![](./assets/tiny_solar_3D_v0.1.png)
+
+## v1.0 Dec'25
+
+- replace 0805 packages for 1206s
+- replace jumper J3 for slide switch S1 for ON/OFF
+- improve silkscreen
+
+![](./assets/tiny_solar_schematics_v1.0.png)
+
+![](./assets/tiny_solar_layout_v1.0.png)
+
+![](./assets/tiny_solar_3D_v1.0.gif)
