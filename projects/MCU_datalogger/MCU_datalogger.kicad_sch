@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MCU datalogger")
-		(date "2025-09-29")
+		(date "2025-12-24")
 		(rev "0.1")
 		(company "Manuel Heredia - sevillabot")
 		(comment 1 "--")
@@ -6509,6 +6509,48 @@
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 143.51)
+		(size 74.295 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f748de0e-ad40-4233-8c36-6ac943b70eee")
+		(property "Sheetname" "Connectors"
+			(at 52.705 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 52.705 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MCU_datalogger"
+				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
+					(page "2")
 				)
 			)
 		)
