@@ -6,6 +6,7 @@
 *.tmp
 *.bck
 *~
+*.lck
 
 # Ignore KiCad autosave files
 *.kicad_sch-bak
