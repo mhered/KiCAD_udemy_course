@@ -4454,7 +4454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 154.94 66.0399 0)
 			(effects
 				(font
@@ -4482,6 +4482,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 151.13 64.77 0)
 			(effects
 				(font
@@ -4552,6 +4561,15 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 259.08 36.83 0)
 			(effects
 				(font
@@ -4639,6 +4657,15 @@
 				(hide yes)
 			)
 		)
+		(property "My_Label" ""
+			(at 242.57 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8310632-3e42-434f-b784-3d9a21dfaef0")
 		)
@@ -4701,6 +4728,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 254 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 254 143.51 0)
 			(effects
 				(font
@@ -4773,6 +4809,15 @@
 				(hide yes)
 			)
 		)
+		(property "My_Label" ""
+			(at 254 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
@@ -4801,7 +4846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7kΩ"
 			(at 130.81 157.4799 0)
 			(effects
 				(font
@@ -4829,6 +4874,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 128.27 156.21 0)
 			(effects
 				(font
@@ -4870,7 +4924,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330Ω"
 			(at 153.67 33.02 90)
 			(effects
 				(font
@@ -4898,6 +4952,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
+			(at 153.67 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +5002,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100nF"
 			(at 240.03 37.7189 0)
 			(effects
 				(font
@@ -4967,6 +5030,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -5045,6 +5117,15 @@
 				(hide yes)
 			)
 		)
+		(property "My_Label" ""
+			(at 254 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
@@ -5073,7 +5154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 154.94 53.3399 0)
 			(effects
 				(font
@@ -5101,6 +5182,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 151.13 52.07 0)
 			(effects
 				(font
@@ -5186,6 +5276,15 @@
 				(hide yes)
 			)
 		)
+		(property "My_Label" ""
+			(at 166.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b8a9d7f-ddc9-4935-93b3-126616e9f3f8")
 		)
@@ -5220,7 +5319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1μF"
 			(at 121.92 46.9899 0)
 			(effects
 				(font
@@ -5248,6 +5347,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 118.11 45.72 0)
 			(effects
 				(font
@@ -5290,7 +5398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10KΩ"
 			(at 110.49 46.9899 0)
 			(effects
 				(font
@@ -5318,6 +5426,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MH_Role" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "My_Label" ""
 			(at 107.95 45.72 0)
 			(effects
 				(font
@@ -5359,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10KΩ"
 			(at 166.37 77.47 90)
 			(effects
 				(font
@@ -5387,6 +5512,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
+			(at 166.37 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330Ω"
 			(at 243.84 91.4399 0)
 			(effects
 				(font
@@ -5456,6 +5590,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 241.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 241.3 90.17 0)
 			(effects
 				(font
@@ -5498,7 +5641,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16MHz"
 			(at 168.91 57.1499 90)
 			(effects
 				(font
@@ -5527,6 +5670,15 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
+			(at 165.1 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5719,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768KHz"
 			(at 34.29 44.45 0)
 			(effects
 				(font
@@ -5594,6 +5746,23 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MH_Role" ""
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "My_Label" ""
 			(at 34.29 49.53 0)
 			(effects
 				(font
@@ -5635,7 +5804,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1μF"
 			(at 165.1 17.78 90)
 			(effects
 				(font
@@ -5663,6 +5832,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 165.1 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
+			(at 165.1 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,6 +5994,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6026,6 +6213,15 @@
 				(hide yes)
 			)
 		)
+		(property "My_Label" ""
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "5c2cbc9a-843f-4361-802c-5da4176fad16")
 		)
@@ -6150,7 +6346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10KΩ"
 			(at 100.33 46.9899 0)
 			(effects
 				(font
@@ -6178,6 +6374,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MH_Role" ""
+			(at 97.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "My_Label" ""
 			(at 97.79 45.72 0)
 			(effects
 				(font
@@ -6256,6 +6469,15 @@
 				(hide yes)
 			)
 		)
+		(property "My_Label" ""
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
@@ -6320,6 +6542,15 @@
 				(hide yes)
 			)
 		)
+		(property "My_Label" ""
+			(at 71.12 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "fafed7ad-1fa6-45f2-adbe-9488214b51b0")
 		)
@@ -6372,7 +6603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7kΩ"
 			(at 120.65 157.4799 0)
 			(effects
 				(font
@@ -6400,6 +6631,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 118.11 156.21 0)
 			(effects
 				(font
@@ -6470,6 +6710,15 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 1024Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "My_Label" ""
 			(at 40.64 160.02 0)
 			(effects
 				(font
