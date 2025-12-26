@@ -1049,6 +1049,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/9dc420f9-f07a-45e1-a4a3-05f19fbf9e8e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1060,7 +1066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43d73356-2757-4e9d-ada7-31321d25d4e0")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -1134,7 +1140,13 @@
 		(instances
 			(project ""
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5/f748de0e-ad40-4233-8c36-6ac943b70eee"
-					(reference "J3")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/9dc420f9-f07a-45e1-a4a3-05f19fbf9e8e"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1149,7 +1161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc77827f-06e1-4ad1-bfeb-80cda1881405")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 99.06 110.49 0)
 			(effects
 				(font
@@ -1232,7 +1244,13 @@
 		(instances
 			(project ""
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5/f748de0e-ad40-4233-8c36-6ac943b70eee"
-					(reference "J4")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/9dc420f9-f07a-45e1-a4a3-05f19fbf9e8e"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1247,7 +1265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da151167-a1be-4580-b2b4-c9963a3a3842")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 179.07 69.85 0)
 			(effects
 				(font
@@ -1315,10 +1333,22 @@
 		(instances
 			(project "MCU_datalogger"
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5/f748de0e-ad40-4233-8c36-6ac943b70eee"
-					(reference "J2")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/9dc420f9-f07a-45e1-a4a3-05f19fbf9e8e"
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
