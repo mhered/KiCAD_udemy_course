@@ -968,6 +968,305 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "D6"
+		(shape bidirectional)
+		(at 101.6 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1a2ec8fc-4007-4b58-b26d-aba615832001")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 101.6 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1e214f2a-5b31-4891-9a24-d416df5ebd89")
+	)
+	(hierarchical_label "D2"
+		(shape bidirectional)
+		(at 101.6 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "31211380-8c48-4784-93a1-114f1f16b027")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 185.42 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "32e37270-bd8d-4d8d-959a-80c18fdf8255")
+	)
+	(hierarchical_label "RESET"
+		(shape passive)
+		(at 172.72 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "342d3bb7-c24a-4491-b5f5-eee32ac21d1e")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 101.6 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3784a3c2-023c-4b8b-9797-9ee5c4014bb7")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 181.61 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3a0d1bf6-e7ab-4ba1-ad7d-76e9ae1929bb")
+	)
+	(hierarchical_label "D3"
+		(shape bidirectional)
+		(at 101.6 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3c3a9f2e-75b4-4391-86c9-82a3933b793e")
+	)
+	(hierarchical_label "D8"
+		(shape bidirectional)
+		(at 101.6 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "433e9215-30f2-4407-a037-6d99d5c879a2")
+	)
+	(hierarchical_label "D7"
+		(shape bidirectional)
+		(at 101.6 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "517977a0-fb53-40fc-9232-a4f81919aaae")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 181.61 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5fb4e743-a9d0-4384-909a-145edcd39f01")
+	)
+	(hierarchical_label "SCK"
+		(shape passive)
+		(at 101.6 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "62c6950c-1851-4365-9efd-ba2b248fb2d9")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 101.6 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "63ed325d-7593-42f1-84d8-2f03f1173221")
+	)
+	(hierarchical_label "D5"
+		(shape bidirectional)
+		(at 101.6 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7004f94c-fb81-4150-afbd-6d2219c0a14c")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 101.6 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7d98c617-13d8-4b49-8673-26afbf7b234f")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 172.72 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "91edfd3c-9f40-43cd-aed3-5fb9a453465e")
+	)
+	(hierarchical_label "D4"
+		(shape bidirectional)
+		(at 101.6 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9f4a971e-2faa-470a-9387-cc45d1037235")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 185.42 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b2976687-45cd-476f-8efb-7c9f0093719b")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 181.61 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b32b752a-623b-43fd-b814-dc03e4da673f")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 185.42 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c62a1c19-33d7-4ffb-aeb5-86b35ff92858")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 101.6 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "dd324cf8-ef32-4815-ba8d-7fb22f771983")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 181.61 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e9590230-6dbf-42f2-ae06-f382fdc08918")
+	)
+	(hierarchical_label "SCK"
+		(shape passive)
+		(at 172.72 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "f247aa14-ab48-40a0-a3f5-b85c559848ab")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 96.52 78.74 0)
