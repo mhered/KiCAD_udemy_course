@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MH_ATMEGA328")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_ATMEGA328-AU")(options "")(descr ""))
   (lib (name "MH_DS1337S")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_DS1337S")(options "")(descr ""))
+  (lib (name "MH_LOGO")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_Logo")(options "")(descr ""))
 )

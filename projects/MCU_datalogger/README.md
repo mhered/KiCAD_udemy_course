@@ -13,3 +13,7 @@ The design covers the key building blocks of a typical datalogger system:
 DS1337S
 
 ATMEGA328P-AU from SNAPEDA
+
+## v1.0
+
+![](./assets/MCU_datalogger_PCB_v1.0.png)
