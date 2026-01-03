@@ -17,3 +17,9 @@ ATMEGA328P-AU from SNAPEDA
 ## v1.0
 
 ![](./assets/MCU_datalogger_PCB_v1.0.png)
+
+## v1.1
+
+Adjust edges and silkscreen
+
+![](./assets/MCU_datalogger_PCB_v1.1.png)
