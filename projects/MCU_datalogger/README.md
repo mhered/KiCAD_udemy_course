@@ -20,6 +20,8 @@ ATMEGA328P-AU from SNAPEDA
 
 ## v1.1
 
-Adjust edges and silkscreen
+Adjust edges and silkscreen, add Vcc fill zone
+
+![](./assets/MCU_datalogger_layout_v1.1.png)
 
 ![](./assets/MCU_datalogger_PCB_v1.1.png)
