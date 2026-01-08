@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMAJ24A
+D Bourns SMAJ24A, Uni-Directional TVS Diode, 400W, 2-Pin DO-214AC
+K
+F https://www.bourns.com/docs/Product-Datasheets/SMAJ.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MH_SHT31-DIS")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_SHT31-DIS/SHT31-DIS-P2.5KS-Sensirion-Symbol-Altium-327035/SHT31-DIS-P2.5KS.kicad_sym")(options "")(descr ""))
+  (lib (name "MH_THVD1406DR")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_THVD1406DR/THVD1406DR.kicad_sym")(options "")(descr ""))
+  (lib (name "MH_SMAJ24A")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_SMAJ24A/SMAJ24A.kicad_sym")(options "")(descr ""))
+)

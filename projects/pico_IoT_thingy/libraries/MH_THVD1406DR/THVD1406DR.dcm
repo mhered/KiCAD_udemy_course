@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP THVD1406DR
+D RS-422/RS-485 Interface IC 3.3-V to 5-V 500-Kbps half-duplex RS-485 transceiver auto-direction control &plusmn;12-kV IEC ESD
+K
+F https://www.ti.com/lit/ds/symlink/thvd1426.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1667817313932
+$ENDCMP
+#
+#End Doc Library
