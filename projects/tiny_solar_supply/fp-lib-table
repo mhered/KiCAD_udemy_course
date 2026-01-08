@@ -3,4 +3,6 @@
   (lib (name "MH_AP3015A")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_AP3015A")(options "")(descr ""))
   (lib (name "MH_L1")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_L_10uH_680mA_ul_ASPI-0630LR-100M-T15/footprints.pretty")(options "")(descr ""))
   (lib (name "MH_SS14")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_SS14")(options "")(descr ""))
+  (lib (name "MH_logo")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_Logo")(options "")(descr ""))
+  (lib (name "MH_Slide_Switch")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_Slide_Switch")(options "")(descr ""))
 )

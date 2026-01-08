@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Tiny Solar Supply")
-		(date "2025-09-16")
-		(rev "0.1")
+		(date "2025-12-21")
+		(rev "1.0")
 		(company "Manuel Heredia - sevillabot")
 		(comment 1 "https://www.elektormagazine.com/magazine/elektor-305/62009")
 		(comment 2 "Original design by C. Valens for Elektor Magazine")
@@ -777,6 +777,196 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MH_Switch:OS102011MS2QN1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.5411 5.0822 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "OS102011MS2QN1"
+				(at -2.544 -7.6319 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "OS102011MS2QN1:SW_OS102011MS2QN1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "C&K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "OS102011MS2QN1_0_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -4.318)
+					(end 2.286 4.318)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3508,6 +3698,12 @@
 		(uuid "09a620ff-f825-4eac-885c-d87455902823")
 	)
 	(junction
+		(at 118.11 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b25d2af-6854-4026-becf-391f5dec8f89")
+	)
+	(junction
 		(at 133.35 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3518,6 +3714,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "331b355a-1400-4929-bd32-812382bee8fd")
+	)
+	(junction
+		(at 180.34 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54d75517-4e67-4fe1-9cb9-7303639a081e")
 	)
 	(junction
 		(at 118.11 90.17)
@@ -3542,6 +3744,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c835506-061b-405c-b78b-f1a6e66ec9ca")
+	)
+	(junction
+		(at 180.34 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86deafc3-9954-421f-975b-502758f6043a")
 	)
 	(junction
 		(at 209.55 73.66)
@@ -3592,12 +3800,6 @@
 		(uuid "ccb6c607-e970-4860-a8ef-003ee9500b59")
 	)
 	(junction
-		(at 118.11 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbc9515d-e5fb-400b-a439-2ceaf7ad23ca")
-	)
-	(junction
 		(at 170.18 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3609,25 +3811,13 @@
 		(color 0 0 0 0)
 		(uuid "f2549608-53da-40b5-8df3-2caad6ca162f")
 	)
-	(junction
-		(at 191.77 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbd49a1d-f2e1-4410-963a-e65b6814b447")
+	(no_connect
+		(at 113.03 67.31)
+		(uuid "1e9e632d-a0d2-4602-87ea-33784a8974a2")
 	)
 	(wire
 		(pts
-			(xy 191.77 109.22) (xy 209.55 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "016dfce5-0544-463b-a352-792cbcc69241")
-	)
-	(wire
-		(pts
-			(xy 101.6 73.66) (xy 106.68 73.66)
+			(xy 101.6 73.66) (xy 107.95 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3707,6 +3897,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 90.17) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d14a5f2-48ee-49e2-a6e1-d911da492f0d")
+	)
+	(wire
+		(pts
 			(xy 82.55 73.66) (xy 86.36 73.66)
 		)
 		(stroke
@@ -3767,7 +3967,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 109.22) (xy 191.77 102.87)
+			(xy 180.34 109.22) (xy 180.34 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3794,6 +3994,16 @@
 			(type default)
 		)
 		(uuid "630f2d7c-24ce-459b-8e9b-c0b8706e0012")
+	)
+	(wire
+		(pts
+			(xy 110.49 73.66) (xy 110.49 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcee922-0bd7-4e15-8109-c8cc38bbb2db")
 	)
 	(wire
 		(pts
@@ -3887,6 +4097,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 73.66) (xy 118.11 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd238b2-a250-4050-bdd9-b9fa90d038a2")
+	)
+	(wire
+		(pts
 			(xy 191.77 73.66) (xy 200.66 73.66)
 		)
 		(stroke
@@ -3917,7 +4137,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 109.22) (xy 191.77 109.22)
+			(xy 170.18 109.22) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3997,7 +4217,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 90.17) (xy 191.77 95.25)
+			(xy 180.34 90.17) (xy 180.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4007,23 +4227,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 73.66) (xy 118.11 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b47a62c2-5f28-45ed-b25c-0507d3ec8118")
-	)
-	(wire
-		(pts
-			(xy 170.18 90.17) (xy 191.77 90.17)
+			(xy 170.18 90.17) (xy 180.34 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4a8f38c-a78c-46e8-9731-101134548477")
+	)
+	(wire
+		(pts
+			(xy 180.34 109.22) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b678f7aa-9585-48a3-9f87-a27db6280bf5")
 	)
 	(wire
 		(pts
@@ -4147,6 +4367,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 67.31) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ff6098-9a7b-42dd-9d53-d32577e91726")
+	)
+	(wire
+		(pts
 			(xy 191.77 73.66) (xy 191.77 77.47)
 		)
 		(stroke
@@ -4194,21 +4424,6 @@
 			(justify right bottom)
 		)
 		(uuid "e7eaf4ca-0dfd-4ae9-99f2-1e3cc95a8022")
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 49.53 59.69) (xy 49.53 125.73) (xy 247.65 125.73) (xy 247.65 59.69)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid a950e927-77ff-462f-b233-56ee28233497)
-		)
 	)
 	(symbol
 		(lib_id "MH_AP3015A:AP3015AKTR-G1")
@@ -4421,7 +4636,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1 MΩ (0805, 0.125 W)"
+		(property "Value" "1 MΩ (1206, 0.125 W)"
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -4528,10 +4743,12 @@
 			)
 		)
 		(property "MH_Role" "Solar Panel"
-			(at 59.69 81.28 0)
+			(at 58.42 81.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
 				)
 			)
 		)
@@ -4715,7 +4932,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 kΩ (0805, 0.125 W)"
+		(property "Value" "10 kΩ (1206, 0.125 W)"
 			(at 120.65 82.55 0)
 			(effects
 				(font
@@ -4861,7 +5078,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1 MΩ (0805, 0.125 W)"
+		(property "Value" "1 MΩ (1206, 0.125 W)"
 			(at 189.23 82.5499 0)
 			(effects
 				(font
@@ -4907,91 +5124,6 @@
 			(project ""
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x02")
-		(at 106.68 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "830809a7-a4e1-4e4c-8349-24f737973f85")
-		(property "Reference" "J3"
-			(at 111.76 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 111.76 69.85 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:1x02"
-			(at 114.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Basic 0.1\" PTH"
-			(at 118.11 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "My_Label" ""
-			(at 106.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MH_Role" "ON/OFF switch"
-			(at 106.68 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b515d72c-6435-4ec2-9d43-18e58b75804c")
-		)
-		(pin "2"
-			(uuid "cdabfc76-f585-4d28-af85-afe95b7ffa6f")
-		)
-		(instances
-			(project "tiny_solar_supply"
-				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5128,10 +5260,12 @@
 			)
 		)
 		(property "MH_Role" "Output"
-			(at 231.14 99.06 0)
+			(at 234.95 106.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
 				)
 			)
 		)
@@ -5169,7 +5303,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 pF, 50 V, X7R (0805)"
+		(property "Value" "10 pF, 50 V, X7R (1206)"
 			(at 204.47 82.55 0)
 			(effects
 				(font
@@ -5290,7 +5424,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 191.77 99.06 0)
+		(at 180.34 99.06 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5299,7 +5433,7 @@
 		(dnp no)
 		(uuid "a10efc7a-c697-48b6-934b-b63c2f8b9a3b")
 		(property "Reference" "R2"
-			(at 189.23 97.7899 0)
+			(at 185.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,8 +5441,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "604 kΩ, 1% (0805, 0.125 W)"
-			(at 189.23 100.33 0)
+		(property "Value" "604kΩ 1% (1206, 0.125 W)"
+			(at 203.2 100.33 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5317,7 +5451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 189.992 99.06 90)
+			(at 178.562 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 99.06 0)
+			(at 180.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5469,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 191.77 99.06 0)
+			(at 180.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,6 +5487,119 @@
 			(project "tiny_solar_supply"
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MH_Switch:OS102011MS2QN1")
+		(at 110.49 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af4718aa-8965-48d4-bbb2-8c5e92d679fe")
+		(property "Reference" "S1"
+			(at 118.11 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "OS102011MS2QN1"
+			(at 133.35 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MH_Slide_Switch:SW_OS102011MS2QN1"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MH_Role" "ON/OFF Switch"
+			(at 110.49 57.15 90)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+			)
+		)
+		(property "Field8" ""
+			(at 110.49 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df840278-941b-4050-9e41-dd70cd5407d0")
+		)
+		(pin "3"
+			(uuid "5be4b1a3-2af4-40ff-b84d-35995b127df2")
+		)
+		(pin "1"
+			(uuid "9c7b715e-7dcf-46de-a1b3-30bb4fb11a6f")
+		)
+		(instances
+			(project ""
+				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -5414,10 +5661,12 @@
 			)
 		)
 		(property "MH_Role" "Battery"
-			(at 92.71 81.28 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
 				)
 			)
 		)
@@ -5521,7 +5770,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7 µF, 50 V, X7R (0805)"
+		(property "Value" "4.7 µF, 50 V, X7R (1206)"
 			(at 137.16 104.14 0)
 			(effects
 				(font

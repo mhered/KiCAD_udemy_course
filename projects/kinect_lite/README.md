@@ -32,8 +32,30 @@ USB-C CAD model from https://www.3dcontentcentral.com/download-model.aspx?catalo
 
 ## Layout
 
-<img src="./assets/breadboard_power_supply_JLCPCB.png" style="zoom:33%;" />
+<img src="./assets/kinect_JLCPCB.png" style="zoom:33%;" />
 
 ## 3D
 
 <img src="./assets/PCB_v1.png" style="zoom: 33%;" />
+
+## Testing
+
+```bash
+$ kinect-3d-view
+Waiting for sensor initialization...
+Warning: Calibration file [kinect_calib.cfg] not found -> Using default params.
+Could not find device sibling
+Calling CKinect::initialize()...Exception in Kinect thread: ==== MRPT exception ====
+Message:  Error opening Kinect sensor with index: 0
+Location: /home/mhered/git/mrpt/libs/hwdrivers/src/CKinect.cpp:370: [void mrpt::hwdrivers::CKinect::open()
+Call stack backtrace:
+[0 ]     0x7f32408d9bcf 
+[1 ]     0x560d5876142c 
+[2 ]     0x7f323f4ecdb4 
+[3 ]     0x7f323f09caa4 
+[4 ]     0x7f323f129c6c 
+
+terminate called without an active exception
+Aborted (core dumped)
+```
+
