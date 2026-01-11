@@ -39,3 +39,6 @@ diode 24V tranzorb (used SMAJ24A)
 * Check out this [hardware design with RP2040](https://pip-assets.raspberrypi.com/categories/814-rp2040/documents/RP-008279-DS-1-hardware-design-with-rp2040.pdf)  guide ([local copy](./assets/RP-008279-DS-1-hardware-design-with-rp2040.pdf))
 * LDO for 3.3.V - TLV1117-33IDCYR 800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223-4
 
+Pico:
+
+* 1N5819 40V 1A Schottky Barrier Rectifier Diode, DO-41 to protect Vin. iaw ChatGPT a standard SMD analog is the **SS14** series — same **1 A / 40 V** rating in a **DO-214AC (SMA) package**
