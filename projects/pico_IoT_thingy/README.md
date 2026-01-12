@@ -42,3 +42,7 @@ diode 24V tranzorb (used SMAJ24A)
 Pico:
 
 * 1N5819 40V 1A Schottky Barrier Rectifier Diode, DO-41 to protect Vin. iaw ChatGPT a standard SMD analog is the **SS14** series — same **1 A / 40 V** rating in a **DO-214AC (SMA) package**
+
+Relay:
+
+* diode in reverse: LL4148 > replaced by SS14
