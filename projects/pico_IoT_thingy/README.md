@@ -26,7 +26,7 @@ For the mechanical side of things:
 
 TRACO Power TSR-1 2450 - DC-DC step-down (buck) regulator (replaces 78xx linear regulators) with a single 5 V output at up to 1A
 
-THVD1406DR transceiver (made custom symbol)
+
 
 DC power jack
 
@@ -46,3 +46,9 @@ Pico:
 Relay:
 
 * diode in reverse: LL4148 > replaced by SS14
+
+Transceiver: THVD1406DR transceiver (made custom symbol) instead of MAX3485 but now I am not sure I am wiring it properly!
+
+# Schematics
+
+![](./assets/schematics_v1.0.png)
