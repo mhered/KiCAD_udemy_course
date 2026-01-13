@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MH_MF-SM100")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_MF-SM100")(options "")(descr ""))
+  (lib (name "MH_SMAJ24A")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_SMAJ24A")(options "")(descr ""))
+  (lib (name "MH_Barrel_Jack")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_Barrel_Jack")(options "")(descr ""))
+)

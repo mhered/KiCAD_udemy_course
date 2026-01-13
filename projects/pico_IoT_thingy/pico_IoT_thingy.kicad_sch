@@ -7424,6 +7424,16 @@
 		)
 		(uuid "6efe9b01-737f-4eaf-bfd1-009188055607")
 	)
+	(text "What is QWIIC: https://www.sparkfun.com/qwiic"
+		(exclude_from_sim no)
+		(at 304.8 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "710a77e3-9322-45a2-a11c-737a9ada81df")
+	)
 	(text "Transient protection"
 		(exclude_from_sim no)
 		(at 215.9 257.81 0)
@@ -18660,7 +18670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 369.57 48.26 0)
 			(effects
 				(font
@@ -18926,7 +18936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -19130,7 +19140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 175.26 228.6 0)
 			(effects
 				(font
@@ -19198,7 +19208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MH_MF-SM100:MFSM1002"
 			(at 54.61 46.99 0)
 			(effects
 				(font
@@ -19208,7 +19218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/bourns_mfsm.pdf"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -19334,7 +19344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 314.96 69.85 0)
 			(effects
 				(font
@@ -19907,7 +19917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOM5127X229N"
+		(property "Footprint" "MH_SMAJ24A:DIOM5127X229N"
 			(at -35.23 60.96 0)
 			(effects
 				(font
@@ -20416,7 +20426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 306.07 69.85 0)
 			(effects
 				(font
@@ -20617,7 +20627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 73.66 58.42 0)
 			(effects
 				(font
@@ -20626,7 +20636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/bourns_mfsm.pdf"
 			(at 73.66 58.42 0)
 			(effects
 				(font
@@ -20753,7 +20763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 331.47 163.83 0)
 			(effects
 				(font
@@ -20823,7 +20833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 33.02 115.57 0)
 			(effects
 				(font
@@ -21025,7 +21035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 308.61 137.16 0)
 			(effects
 				(font
@@ -21233,7 +21243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 58.42 254 0)
 			(effects
 				(font
@@ -21303,7 +21313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 341.63 48.26 0)
 			(effects
 				(font
@@ -21631,7 +21641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 241.3 242.57 0)
 			(effects
 				(font
@@ -21774,7 +21784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 64.77 157.48 0)
 			(effects
 				(font
@@ -21908,7 +21918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 344.17 226.06 0)
 			(effects
 				(font
@@ -22263,7 +22273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 63.5 115.57 0)
 			(effects
 				(font
@@ -22330,7 +22340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 53.34 219.71 0)
 			(effects
 				(font
@@ -22464,7 +22474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 388.62 140.97 0)
 			(effects
 				(font
@@ -22601,7 +22611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 340.36 81.28 0)
 			(effects
 				(font
@@ -22873,7 +22883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 328.93 90.17 0)
 			(effects
 				(font
@@ -23007,7 +23017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 48.26 105.41 0)
 			(effects
 				(font
@@ -23145,7 +23155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
 			(at 257.81 210.82 0)
 			(effects
 				(font
@@ -23220,7 +23230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 377.19 48.26 0)
 			(effects
 				(font
@@ -23356,7 +23366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 241.3 247.65 0)
 			(effects
 				(font
@@ -23819,7 +23829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 209.55 345.11 0)
 			(effects
 				(font
@@ -23957,7 +23967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 53.34 209.55 0)
 			(effects
 				(font
@@ -24380,7 +24390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 219.71 232.41 0)
 			(effects
 				(font
@@ -24516,7 +24526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 212.09 87.63 0)
 			(effects
 				(font
@@ -24716,7 +24726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 377.19 69.85 0)
 			(effects
 				(font
@@ -24785,7 +24795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 68.58 254 0)
 			(effects
 				(font
@@ -24855,7 +24865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 207.01 236.22 0)
 			(effects
 				(font
@@ -24995,7 +25005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 64.77 167.64 0)
 			(effects
 				(font
@@ -25064,7 +25074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 78.74 254 0)
 			(effects
 				(font
@@ -25284,7 +25294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 325.12 160.02 0)
 			(effects
 				(font
@@ -25481,7 +25491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 53.34 214.63 0)
 			(effects
 				(font
@@ -25819,7 +25829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -25889,7 +25899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 92.71 116.84 0)
 			(effects
 				(font
@@ -26098,7 +26108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 88.9 254 0)
 			(effects
 				(font
@@ -26168,7 +26178,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 308.61 143.51 0)
 			(effects
 				(font
@@ -26379,7 +26389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -26512,7 +26522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MH_Barrel_Jack:TENSILITY_54-00166"
 			(at 34.29 51.816 0)
 			(effects
 				(font

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF-SM100-2
+D Fuse, PTC, Resettable, SMD, 2920, 1.1A Bourns 1.1A Surface Mount Resettable Fuse, 30 V
+K
+F https://www.bourns.com/docs/Product-Datasheets/mfsm.pdf
+$ENDCMP
+#
+#End Doc Library
