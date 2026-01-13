@@ -1,0 +1,249 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "OSTB1206C1E-A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -5.08771 10.1754 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "OSTB1206C1E-A" (id 1) (at -5.09265 -12.7317 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "OSTB1206C1E-A:DIO_OSTB1206C1E-A" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "OptoSupply" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "LED; SMD; 1206; RGB; 3x1.5x0.7mm; 120°; 20mA; Variant: tricolour" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "1206" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "OSTB1206C1E-A" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "1206 OptoSupply" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/OSTB1206C1E-A/OptoSupply/view-part/?ref=eda" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer recommendations" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/OSTB1206C1E-A/OptoSupply/view-part/?ref=snap" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "OSTB1206C1E-A" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            LED; SMD; 1206; RGB; 3x1.5x0.7mm; 120°; 20mA; Variant: tricolour\n                        \n" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "OptoSupply" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "OSTB1206C1E-A_0_0"
+      (polyline
+        (pts (xy 2.54 3.81) (xy 5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 2.54 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 3.81) (xy 5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 5.08 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 3.81) (xy 2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 5.08) (xy 2.54 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 5.08) (xy 5.08 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.302 7.112) (xy 4.699 8.509)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.445 6.985) (xy 5.842 8.382)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 4.699 8.509)
+          (xy 3.81 8.128)
+          (xy 4.318 7.62)
+          (xy 4.699 8.509)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 5.842 8.382)
+          (xy 4.953 8.001)
+          (xy 5.461 7.493)
+          (xy 5.842 8.382)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.54 -6.35) (xy 5.08 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 2.54 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -6.35) (xy 5.08 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 5.08 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -6.35) (xy 2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 2.54 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 5.08 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.302 -3.048) (xy 4.699 -1.651)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.445 -3.175) (xy 5.842 -1.778)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 4.699 -1.651)
+          (xy 3.81 -2.032)
+          (xy 4.318 -2.54)
+          (xy 4.699 -1.651)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 5.842 -1.778)
+          (xy 4.953 -2.159)
+          (xy 5.461 -2.667)
+          (xy 5.842 -1.778)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -2.54 -6.35) (xy -5.08 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -2.54 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -6.35) (xy -5.08 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -5.08 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -6.35) (xy -2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -5.08) (xy -2.54 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -5.08) (xy -5.08 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.302 -3.048) (xy -4.699 -1.651)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.445 -3.175) (xy -5.842 -1.778)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy -4.699 -1.651)
+          (xy -3.81 -2.032)
+          (xy -4.318 -2.54)
+          (xy -4.699 -1.651)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -5.842 -1.778)
+          (xy -4.953 -2.159)
+          (xy -5.461 -2.667)
+          (xy -5.842 -1.778)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 0.0 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 5.08) (xy 0.0 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 2.54 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 0.0 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -5.08) (xy -2.54 -5.08)) (stroke (width 0.1524))
+      )
+      (text "1 PG" (at 12.7342 5.09368 0)
+        (effects (font (size 1.78278 1.78278)) (justify bottom))
+      )
+      (text "3 HR" (at 12.7142 -5.0857 0)
+        (effects (font (size 1.78 1.78)) (justify bottom))
+      )
+      (text "BL 4" (at -12.7436 -5.09747 0)
+        (effects (font (size 1.78411 1.78411)) (justify bottom))
+      )
+      (text "2" (at -12.7381 5.09524 0)
+        (effects (font (size 1.78333 1.78333)) (justify bottom))
+      )
+      (pin passive line (at -7.62 5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

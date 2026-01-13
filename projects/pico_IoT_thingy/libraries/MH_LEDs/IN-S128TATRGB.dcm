@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IN-S128TATRGB
+D Red, Green, Blue (RGB) 625nm Red, 520nm Green, 465nm Blue LED Indication - Discrete 2.2V Red, 3.2V Green, 3.2V Blue 1210 (3225 Metric)
+K
+F https://www.digikey.ph/en/products/detail/inolux/IN-S128TATRGB/7604911
+$ENDCMP
+#
+#End Doc Library

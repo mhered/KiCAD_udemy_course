@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model IN-S128TATRGB
+#/1525496/1718872/2.50/4/3/LED
+DEF IN-S128TATRGB LED 0 30 Y Y 1 F N
+F0 "LED" 1950 300 50 H V L CNN
+F1 "IN-S128TATRGB" 1950 200 50 H V L CNN
+F2 "INS128TATRGB" 1950 100 50 H I L CNN
+F3 "https://www.digikey.ph/en/products/detail/inolux/IN-S128TATRGB/7604911" 1950 0 50 H I L CNN
+F4 "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 465nm Blue LED Indication - Discrete 2.2V Red, 3.2V Green, 3.2V Blue 1210 (3225 Metric)" 1950 -100 50 H I L CNN "Description"
+F5 "1.2" 1950 -200 50 H I L CNN "Height"
+F6 "743-IN-S128TATRGB" 1950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Inolux/IN-S128TATRGB?qs=fAHHVMwC%252Bbg903o776QSrg%3D%3D" 1950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Inolux" 1950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IN-S128TATRGB" 1950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COM_A/BLUE/RED/GREEN 1 0 0 200 R 50 50 0 0 P
+X K_BLUE 2 2100 0 200 L 50 50 0 0 P
+X K_RED 3 0 -100 200 R 50 50 0 0 P
+X K_GREEN 4 2100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1900 100 1900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
