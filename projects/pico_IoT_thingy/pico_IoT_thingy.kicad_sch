@@ -8635,6 +8635,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 220.98) (xy 339.09 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c65f998-60aa-4345-ab4d-872c550f3ab6")
+	)
+	(wire
+		(pts
 			(xy 68.58 248.92) (xy 68.58 251.46)
 		)
 		(stroke
@@ -9715,16 +9725,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 231.14) (xy 328.93 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fa7ef26-b8d1-4620-9391-bcc5f80a44fa")
-	)
-	(wire
-		(pts
 			(xy 64.77 152.4) (xy 64.77 154.94)
 		)
 		(stroke
@@ -10165,6 +10165,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 231.14) (xy 339.09 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d163e88c-4c52-476d-a47c-20f4be7c2c42")
+	)
+	(wire
+		(pts
 			(xy 377.19 60.96) (xy 377.19 67.31)
 		)
 		(stroke
@@ -10512,16 +10522,6 @@
 			(type default)
 		)
 		(uuid "f6189ef9-fc9c-4f24-a9b2-b6cc0c094fe7")
-	)
-	(wire
-		(pts
-			(xy 339.09 220.98) (xy 328.93 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f636ac6f-b907-4281-ae7d-c4c7614bbde1")
 	)
 	(wire
 		(pts
@@ -19041,7 +19041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -21925,7 +21925,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 344.17 226.06 0)
+		(at 346.71 226.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21950,7 +21950,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
-			(at 344.17 226.06 0)
+			(at 346.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21959,7 +21959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 226.06 0)
+			(at 346.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21968,7 +21968,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 344.17 226.06 0)
+			(at 346.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23330,7 +23330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 54.61 162.56 0)
 			(effects
 				(font
@@ -23339,7 +23339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/omron_B3FS.pdf"
 			(at 54.61 162.56 0)
 			(effects
 				(font
@@ -23661,7 +23661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 167.64 110.49 0)
 			(effects
 				(font
@@ -23670,7 +23670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/omron_B3FS.pdf"
 			(at 167.64 110.49 0)
 			(effects
 				(font
