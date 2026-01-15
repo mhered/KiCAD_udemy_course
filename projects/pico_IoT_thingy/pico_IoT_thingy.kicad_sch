@@ -7758,6 +7758,16 @@
 		)
 		(uuid "eb859860-e5b9-485d-be52-a3031c26263e")
 	)
+	(text "Note: symbol flipped to have \nGND at the bottom on Pin 1 "
+		(exclude_from_sim no)
+		(at 256.54 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f08cfc60-8837-4c01-8e63-60bbd6fb0581")
+	)
 	(text "RS485 connector"
 		(exclude_from_sim no)
 		(at 139.7 194.31 0)
@@ -23161,7 +23171,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 257.81 210.82 0)
+		(at 257.81 213.36 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23169,7 +23180,7 @@
 		(dnp no)
 		(uuid "9fd19d2c-a945-48a9-9407-907df4c10475")
 		(property "Reference" "J5"
-			(at 248.92 201.93 0)
+			(at 250.19 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23178,7 +23189,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 248.92 204.47 0)
+			(at 250.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23187,7 +23198,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
-			(at 257.81 210.82 0)
+			(at 257.81 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23196,7 +23207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 210.82 0)
+			(at 257.81 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23205,7 +23216,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 257.81 210.82 0)
+			(at 257.81 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

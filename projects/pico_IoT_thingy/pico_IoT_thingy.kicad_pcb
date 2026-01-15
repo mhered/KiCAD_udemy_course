@@ -4834,6 +4834,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/libraries/MH_Screw_Terminals/Screw_Terminal_Block_1x03_P5mm.step"
+			(offset
+				(xyz -73 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
@@ -8536,7 +8547,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.089286)
-			(net 52 "/B")
+			(net 1 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "53fa3580-351f-404a-a953-39d55a3ca530")
@@ -8547,7 +8558,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "/A")
+			(net 39 "+5V")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "6e7da533-c05c-4a5c-b4fc-188ac6a9bf6c")
@@ -8558,7 +8569,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "+5V")
+			(net 53 "/A")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "13cbf5d1-6c85-4ea9-aaef-375683a09bbc")
@@ -8569,7 +8580,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "GND")
+			(net 52 "/B")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "746b9776-9255-4992-8d1f-9477f7a30d76")
@@ -8583,7 +8594,29 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/libraries/MH_Screw_Terminals/Screw_Terminal_Block_1x02_P5mm.step"
+			(offset
+				(xyz -41 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/libraries/MH_Screw_Terminals/Screw_Terminal_Block_1x02_P5mm.step"
+			(offset
+				(xyz -31 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -0)
 			)
 		)
 	)
