@@ -52,3 +52,11 @@ Transceiver: THVD1406DR transceiver (made custom symbol) instead of MAX3485 but 
 # Schematics
 
 ![](./assets/schematics_v1.0.png)
+
+Screw terminal model from here: https://grabcad.com/library/pcb-mount-screw-terminal-block-connectors-1 converted to STEP using Onshape (spam, nonstd pwd).
+
+Why is he using 4 wires for RS485? See: https://www.seeedstudio.com/blog/2021/03/18/how-rs485-works-and-how-to-implement-rs485-into-industrial-control-systems/
+
+Initial placement of components (before routing):
+
+![￼](./assets/initial_component_placement.png)
