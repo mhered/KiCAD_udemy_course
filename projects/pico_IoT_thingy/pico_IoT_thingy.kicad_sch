@@ -8335,7 +8335,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 140.97) (xy 375.92 140.97)
+			(xy 388.62 140.97) (xy 375.92 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9545,7 +9545,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 138.43) (xy 375.92 138.43)
+			(xy 388.62 138.43) (xy 375.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9625,7 +9625,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 143.51) (xy 373.38 143.51)
+			(xy 388.62 143.51) (xy 373.38 143.51)
 		)
 		(stroke
 			(width 0)
@@ -18357,6 +18357,16 @@
 		)
 		(uuid "ac075d5d-9a4a-4ac7-a0fa-c5f3ebebd80f")
 	)
+	(label "LOAD_NC"
+		(at 379.73 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aee9a933-74c0-438d-969d-35b1f119a980")
+	)
 	(label "DIP2"
 		(at 240.03 133.35 180)
 		(effects
@@ -18387,6 +18397,16 @@
 		)
 		(uuid "b9c7b8aa-232d-4c37-a04b-602def8762e0")
 	)
+	(label "LOAD_NO"
+		(at 379.73 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be5c3de6-f42e-4d35-a180-e274e0da764f")
+	)
 	(label "SPI0_CSn"
 		(at 173.99 130.81 0)
 		(effects
@@ -18396,6 +18416,16 @@
 			(justify left bottom)
 		)
 		(uuid "d420e4f2-ff72-4cee-9818-aac7bb8cf77b")
+	)
+	(label "LOAD_COM"
+		(at 379.73 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d49f3d25-1573-431d-92b0-2da6703ebdd5")
 	)
 	(label "RELAY"
 		(at 314.96 160.02 0)
@@ -18812,6 +18842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 369.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3d8217c-b7ad-48db-866a-98a34d11cb1c")
 		)
@@ -19078,6 +19117,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "aliexpress"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce7f850a-c197-4ea7-9a24-f2acb9effb57")
 		)
@@ -19282,6 +19330,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 175.26 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df7ba4d7-0c3b-44db-80a3-547d5b834b67")
 		)
@@ -19344,6 +19401,15 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "652-MFSM100-2"
+			(at 49.53 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19486,6 +19552,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 314.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b02d7557-76cb-4d11-8494-af91b5e08251")
 		)
@@ -19577,6 +19652,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" " 583-BC817 "
+			(at 341.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96a32aa7-bd2e-4974-9d13-4b88a4253f9a")
 		)
@@ -19642,6 +19726,15 @@
 			)
 		)
 		(property "Description" "Schrack RT1 relay, bistable single pole dual throw, single DC coil, 5V"
+			(at 349.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" " 655-RT314A05 "
 			(at 349.25 140.97 0)
 			(effects
 				(font
@@ -19793,6 +19886,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "na"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25b41d07-4a7f-4395-997c-b2ff6c77d24b")
 		)
@@ -19852,6 +19954,15 @@
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
 			(at 331.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
+			(at 331.47 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20108,6 +20219,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" " 576-SMAJ24A "
+			(at 58.42 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20376,6 +20496,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "aliexpress"
+			(at 207.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "ef4bb26c-f471-443a-8d85-0f014c13d766")
 		)
@@ -20560,6 +20689,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 306.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
 			(at 306.07 69.85 0)
 			(effects
 				(font
@@ -20769,6 +20907,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" " 581-12065C225K4Z2A "
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a23c602-7ee5-4f8c-b027-33f8d0a0c11c")
 		)
@@ -20830,6 +20977,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "na"
 			(at 165.1 41.91 0)
 			(effects
 				(font
@@ -20905,6 +21061,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 331.47 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ef95b49f-1d41-482c-a53c-7e67ee6eba24")
 		)
@@ -20967,6 +21132,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
 			(at 33.02 115.57 0)
 			(effects
 				(font
@@ -21177,6 +21351,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 308.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "486af7a0-287e-4a8f-bf96-5bfd40d82462")
 		)
@@ -21311,6 +21494,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 58.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f69f1a0-8ace-449f-9063-f9f1b1b5d8ec")
 		)
@@ -21373,6 +21565,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 341.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
 			(at 341.63 48.26 0)
 			(effects
 				(font
@@ -21645,6 +21846,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "na"
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88ac0cbf-db4b-4232-86fc-dee9c851d5ef")
 		)
@@ -21702,6 +21912,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 241.3 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
+			(at 241.3 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21779,6 +21998,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" " 495-TSR1-2450E "
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "118269a5-f23d-4d0a-b851-7fe2e3cd82aa")
 		)
@@ -21844,6 +22072,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 64.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
 			(at 64.77 157.48 0)
 			(effects
 				(font
@@ -21978,6 +22215,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 346.71 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "200-MTSW10509GD490 "
 			(at 346.71 226.06 0)
 			(effects
 				(font
@@ -22341,6 +22587,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0093a39b-27c5-4f36-a56e-422b60e8791a")
 		)
@@ -22401,6 +22656,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 53.34 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
+			(at 53.34 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22490,7 +22754,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 388.62 140.97 0)
+		(at 393.7 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22498,7 +22762,7 @@
 		(dnp no)
 		(uuid "881ed5f2-793e-472a-aadc-017eb09660f8")
 		(property "Reference" "J4"
-			(at 378.46 132.08 0)
+			(at 379.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22507,7 +22771,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 378.46 134.62 0)
+			(at 379.73 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22516,7 +22780,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
-			(at 388.62 140.97 0)
+			(at 393.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22525,7 +22789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 388.62 140.97 0)
+			(at 393.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22534,7 +22798,16 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 388.62 140.97 0)
+			(at 393.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "aliexpress"
+			(at 393.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22671,6 +22944,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 340.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "aliexpress"
 			(at 340.36 81.28 0)
 			(effects
 				(font
@@ -22951,6 +23233,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 328.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6e2a25d-cb4c-4100-a13c-cf9b9a9e9d7a")
 		)
@@ -23077,6 +23368,15 @@
 			)
 		)
 		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(at 48.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" " 595-TLV1117-33IDCYR "
 			(at 48.26 105.41 0)
 			(effects
 				(font
@@ -23224,6 +23524,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "aliexpress"
+			(at 257.81 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "878e78a4-7bb9-4a63-a1c7-15fc00999db1")
 		)
@@ -23292,6 +23601,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 377.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "na"
+			(at 377.19 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23368,6 +23686,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 54.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bed2a62-e798-4b37-82e0-746d077ab12b")
 		)
@@ -23428,6 +23755,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 241.3 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
+			(at 241.3 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23699,6 +24035,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2207a7ee-17a8-4485-b33d-996732ff97b7")
 		)
@@ -23951,6 +24296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" " 595-THVD1406DR "
+			(at 185.42 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "83be4da1-ea1a-4642-b538-3af02010f18c")
 		)
@@ -24029,6 +24383,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 53.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
+			(at 53.34 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24229,6 +24592,15 @@
 			)
 		)
 		(property "Description" "I²C humidity and temperature sensor, ±2%RH, ±0.2°C, DFN-8"
+			(at 353.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" " 403-SHT31ADIS-B2.5KS "
 			(at 353.06 63.5 0)
 			(effects
 				(font
@@ -24459,6 +24831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 219.71 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e905aa15-c5c5-491a-bbdd-981df5e68641")
 		)
@@ -24587,6 +24968,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
 			(at 212.09 87.63 0)
 			(effects
 				(font
@@ -24795,6 +25185,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 377.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b219f6d6-d3bf-494b-bb5e-35e7b8701715")
 		)
@@ -24864,6 +25263,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 68.58 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7246d2e-adc2-49ee-a76d-07347cb5b1c7")
 		)
@@ -24924,6 +25332,15 @@
 			)
 		)
 		(property "Description" "RGB LED, red/green/blue/anode"
+			(at 66.04 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "aliexpress"
 			(at 66.04 214.63 0)
 			(effects
 				(font
@@ -25008,6 +25425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 207.01 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "772aad2f-1c05-4903-a5aa-151558b95560")
 		)
@@ -25071,6 +25497,15 @@
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
 			(at 201.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
+			(at 201.93 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25148,6 +25583,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7eb4439c-ad92-4e61-9cf8-15608ed752c5")
 		)
@@ -25209,6 +25653,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 78.74 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
 			(at 78.74 254 0)
 			(effects
 				(font
@@ -25351,6 +25804,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" " 774-2194MST "
+			(at 45.72 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "032b6737-a5d6-437d-82ec-92a4d0165282")
 		)
@@ -25430,6 +25892,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 325.12 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
+			(at 325.12 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25634,6 +26105,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 53.34 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "176f6f2f-c484-433b-b18b-ee9ef275b0ad")
 		)
@@ -25695,6 +26175,15 @@
 			)
 		)
 		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+			(at 227.33 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" " 576-SM712-02HTG "
 			(at 227.33 252.73 0)
 			(effects
 				(font
@@ -25972,6 +26461,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a9b86044-47c2-42e2-9889-89250ea90d65")
 		)
@@ -26044,6 +26542,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 92.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "aliexpress"
+			(at 92.71 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26251,6 +26758,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "stash"
+			(at 88.9 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f0c12ab-dd6c-41be-a24e-22791843faa9")
 		)
@@ -26323,6 +26839,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 308.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "aliexpress"
+			(at 308.61 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26465,6 +26990,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Ref" "na"
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba833147-1636-46b6-bb42-9c0ebf533b31")
 		)
@@ -26524,6 +27058,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -26657,6 +27200,15 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 33.02 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Ref" "stash"
 			(at 33.02 50.8 0)
 			(effects
 				(font

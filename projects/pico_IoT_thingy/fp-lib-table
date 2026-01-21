@@ -4,4 +4,5 @@
   (lib (name "MH_SMAJ24A")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_SMAJ24A")(options "")(descr ""))
   (lib (name "MH_Barrel_Jack")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_Barrel_Jack")(options "")(descr ""))
   (lib (name "MH_DIPSWITCH")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_DIPSWITCH")(options "")(descr ""))
+  (lib (name "MH_logos")(type "KiCad")(uri "${KIPRJMOD}/libraries/MH_Logos")(options "")(descr ""))
 )

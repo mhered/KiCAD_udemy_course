@@ -473,6 +473,22 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 20,
+        "name": "LOAD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 132, 132)",
+        "wire_width": 20
+      },
+      {
+        "bus_width": 8,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 8
       }
     ],
     "meta": {
@@ -480,7 +496,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "LOAD",
+        "pattern": "/LOAD*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -513,6 +542,12 @@
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Mouser Ref",
+          "name": "Mouser Ref",
+          "show": true
+        },
         {
           "group_by": false,
           "label": "Reference",
@@ -621,7 +656,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Mouser Ref"
     },
     "connection_grid_size": 50.0,
     "drawing": {
