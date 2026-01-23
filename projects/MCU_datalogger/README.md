@@ -13,3 +13,15 @@ The design covers the key building blocks of a typical datalogger system:
 DS1337S
 
 ATMEGA328P-AU from SNAPEDA
+
+## v1.0
+
+![](./assets/MCU_datalogger_PCB_v1.0.png)
+
+## v1.1
+
+Adjust edges and silkscreen, add Vcc fill zone
+
+![](./assets/MCU_datalogger_layout_v1.1.png)
+
+![](./assets/MCU_datalogger_PCB_v1.1.png)
