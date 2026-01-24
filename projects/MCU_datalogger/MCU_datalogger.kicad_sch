@@ -6432,6 +6432,16 @@
 		)
 		(uuid "d79f2930-918c-4f88-8c9a-f9c7c57215bf")
 	)
+	(label "MH"
+		(at 63.5 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f44a0b33-48cb-4d74-bc9d-0f5857931b8a")
+	)
 	(label "D3"
 		(at 119.38 154.94 0)
 		(effects

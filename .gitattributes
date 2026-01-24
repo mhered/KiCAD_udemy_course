@@ -3,3 +3,6 @@
 *.FCStd filter=lfs diff=lfs merge=lfs -text
 *.stl filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
+
+
+MCU_datalogger.kicad_pcb merge=pcb
