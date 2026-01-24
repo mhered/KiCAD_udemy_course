@@ -968,6 +968,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Connectors"
+		(exclude_from_sim no)
+		(at 101.6 44.45 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "39c9104f-a2c7-4edf-b6b8-78a0225b673f")
+	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 101.6 81.28 0)
@@ -1085,7 +1097,7 @@
 		)
 		(uuid "5fb4e743-a9d0-4384-909a-145edcd39f01")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "SCL"
 		(shape passive)
 		(at 101.6 83.82 0)
 		(effects
