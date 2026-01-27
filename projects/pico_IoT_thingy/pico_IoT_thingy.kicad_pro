@@ -48,11 +48,36 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|55410000|114100000|9805dc0e-6f58-4c1e-9ab9-b0d6b8f159db|00000000-0000-0000-0000-000000000000",
+          "Appears to be an error in the footprint"
+        ],
+        [
+          "items_not_allowed|74790000|114100000|acefd835-a26e-4e01-87d4-cb8154ee7c1c|00000000-0000-0000-0000-000000000000",
+          "Appears to be an error in the footprint"
+        ],
+        [
+          "silk_edge_clearance|140000000|105600000|2d2a3cad-d9dc-42e6-b55c-bf15c48e4971|a81a1ab5-9b02-4f17-a0b3-d2cea7761aa5",
+          "Ignore to keep jack close to board edge"
+        ],
+        [
+          "silk_edge_clearance|140000000|60537770|2d2a3cad-d9dc-42e6-b55c-bf15c48e4971|54aff659-7440-4da4-864d-77d3e325e69c",
+          "Ignore to keep screw terminal close to the edge"
+        ],
+        [
+          "silk_edge_clearance|140000000|88653770|2d2a3cad-d9dc-42e6-b55c-bf15c48e4971|2c8c2359-b7a1-42cb-9fac-8f0af8f1ebe3",
+          "Ignore to keep screw terminal close to the edge"
+        ],
+        [
+          "silk_edge_clearance|140000000|96400000|2d2a3cad-d9dc-42e6-b55c-bf15c48e4971|489318e4-a01a-4b90-b27b-f1248f751805",
+          "Ignore to keep jack close to board edge"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -475,10 +500,18 @@
         "wire_width": 6
       },
       {
+        "name": "5v",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8
+      },
+      {
         "bus_width": 20,
         "name": "LOAD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 132, 132)",
         "wire_width": 20
       },
@@ -486,7 +519,7 @@
         "bus_width": 8,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 8
       }
@@ -506,8 +539,8 @@
         "pattern": ""
       },
       {
-        "netclass": "PWR",
-        "pattern": "+*"
+        "netclass": "5v",
+        "pattern": "+5V"
       }
     ]
   },

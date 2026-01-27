@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Pico IoT thingy")
-		(date "2026-01-05")
+		(date "2026-01-27")
 		(rev "1.0")
 		(company "Manuel Heredia")
 		(comment 1 "https://www.youtube.com/watch?v=tCulctQqdhM ")
@@ -7427,6 +7427,16 @@
 		)
 		(uuid "214e7589-1f43-4968-ab20-574374ae52fc")
 	)
+	(text "Mounting Hole \ninside High Power area"
+		(exclude_from_sim no)
+		(at 190.5 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "405f3e5a-2e4c-4045-a377-8295af7e8b76")
+	)
 	(text "Extra GPIO pins \nfor the SPI port"
 		(exclude_from_sim no)
 		(at 243.84 147.32 0)
@@ -8024,6 +8034,10 @@
 	(no_connect
 		(at 184.15 138.43)
 		(uuid "93e5d825-98f4-49c4-9817-1eacaa46e1b0")
+	)
+	(no_connect
+		(at 190.5 44.45)
+		(uuid "e436553e-8eaa-42ef-984e-8075aa108ecc")
 	)
 	(no_connect
 		(at 184.15 113.03)
@@ -26278,7 +26292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 44.45 0)
+		(at 241.3 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26286,7 +26300,7 @@
 		(dnp no)
 		(uuid "dfcef76d-4e25-4729-b36e-cf3376e9e61d")
 		(property "Reference" "#PWR010"
-			(at 190.5 50.8 0)
+			(at 241.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26295,7 +26309,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 48.26 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26303,7 +26317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 44.45 0)
+			(at 241.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26312,7 +26326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 44.45 0)
+			(at 241.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26321,7 +26335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 44.45 0)
+			(at 241.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27085,71 +27099,6 @@
 			(project "pico_IoT_thingy"
 				(path "/976a870b-4bc8-4381-8f7b-7356f08e7273"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edb7cfff-d1e5-4e1b-b8d9-f2bb4047bb89")
-		(property "Reference" "#PWR012"
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d197786f-04e8-4117-bd2d-0ffc5190682e")
-		)
-		(instances
-			(project "pico_IoT_thingy"
-				(path "/976a870b-4bc8-4381-8f7b-7356f08e7273"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
