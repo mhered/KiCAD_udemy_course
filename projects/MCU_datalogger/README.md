@@ -25,3 +25,10 @@ Adjust edges and silkscreen, add Vcc fill zone
 ![](./assets/MCU_datalogger_layout_v1.1.png)
 
 ![](./assets/MCU_datalogger_PCB_v1.1.png)
+
+## Bootloading and firmware uploading the ATMEGA328
+
+- Arduino to atmega328 [Arduino Uno to ATmega328 - Shrinking your Arduino ProjectsYouTube · DroneBot Workshop29 Dec 2018](https://www.youtube.com/watch?v=Sww1mek5rHU)
+- Shrinking arduino projects atmega328 https://youtu.be/aex1HFhJG_g?si=vZYHLi1vfadTmJW0
+
+- http://www.kerrywong.com/2010/09/25/i2c-data-logger-using-atmega328p-and-ds3232/
