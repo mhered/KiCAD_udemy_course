@@ -60,3 +60,15 @@ Why is he using 4 wires for RS485? See: https://www.seeedstudio.com/blog/2021/03
 Initial placement of components (before routing):
 
 ![￼](./assets/initial_component_placement.png)
+
+## v1.2
+
+first proto sent to production
+
+![](./assets/layout_v1.2.png)
+
+![](./assets/3D_v1.2.png)
+
+Issues:
+
+* silkscreen missing connector labels, project name and version
