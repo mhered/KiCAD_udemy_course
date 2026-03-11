@@ -72,3 +72,16 @@ first proto sent to production
 Issues:
 
 * silkscreen missing connector labels, project name and version
+
+## v1.3
+
+Fixes:
+
+- silkscreen: missing connector labels, project name and version
+- more vias to power planes close to pads
+- align 24VDC, RS485, relay connectors 
+
+Issues:
+
+- J7 connector?
+- orientation LED D8?

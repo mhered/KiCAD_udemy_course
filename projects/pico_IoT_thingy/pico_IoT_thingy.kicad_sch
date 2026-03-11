@@ -19131,7 +19131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Ref" "aliexpress"
+		(property "Mouser Ref" "stash"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -20183,56 +20183,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.29"
-			(at -335.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-SMAJ24A"
-			(at -435.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SMAJ24A?qs=A3H9pljuJ8RK3%2FFerHGtzA%3D%3D"
-			(at -535.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at -635.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SMAJ24A"
-			(at -735.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -22237,7 +22187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Ref" "200-MTSW10509GD490 "
+		(property "Mouser Ref" "stash"
 			(at 346.71 226.06 0)
 			(effects
 				(font
@@ -23700,7 +23650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Ref" "stash"
+		(property "Mouser Ref" "aliexpress"
 			(at 54.61 162.56 0)
 			(effects
 				(font
@@ -24049,7 +23999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Ref" "stash"
+		(property "Mouser Ref" "aliexpress"
 			(at 167.64 110.49 0)
 			(effects
 				(font
@@ -24257,56 +24207,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 209.55 645.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-THVD1406DR"
-			(at 209.55 745.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1406DR?qs=Li%252BoUPsLEnsDRatqPHNy8w%3D%3D"
-			(at 209.55 845.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 209.55 945.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "THVD1406DR"
-			(at 209.55 1045.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
