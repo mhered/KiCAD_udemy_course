@@ -61,3 +61,19 @@ K4 = pin header, 1 row, 2 contacts, right-angle, 2 mm pitch
 ![](./assets/tiny_solar_layout_v1.0.png)
 
 ![](./assets/tiny_solar_3D_v1.0.gif)
+
+## v1.1
+
+* inductor L1 not the one I ordered:
+  * Order ABRACON ASPI-0630LR-100M-T15 (LCSC# C1334133) current 4A matches footprint used
+  * Alternatively order CDRH4D22NP-100NC (LCSC# C2453957) closer to the one specified in A3015 datasheet AND replace footprint
+* improvements in routing (direct connections to ground plane)
+* Improve silkscreen: white bkg for user labels, fix ON / OFF switch labels (were reversed)
+
+To do:
+
+- [ ] decision on L1
+- [ ] ground mounting pads
+- [ ] replace 
+
+by mounting pads with vias (cooler!)
