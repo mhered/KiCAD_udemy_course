@@ -32,3 +32,12 @@ Adjust edges and silkscreen, add Vcc fill zone
 - Shrinking arduino projects atmega328 https://youtu.be/aex1HFhJG_g?si=vZYHLi1vfadTmJW0
 
 - http://www.kerrywong.com/2010/09/25/i2c-data-logger-using-atmega328p-and-ds3232/
+
+## v1.3
+
+ChatGPT disagrees with the choice of an electrolytic 100nF capacitor in parallel with the battery it says it is too slow. and recommends instead a ceramic 100nF close to the MCU pins to act as filter for spikes. Optionally can add a 10-100uF bulk cap (e.g. electrolytic) to stabilize)
+
+I cant find anything in the datasheet
+
+Looks like EEPROM address is hardcoded 111 and 101, check datasheet!
+

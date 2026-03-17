@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU datalogger")
-		(date "2025-12-24")
-		(rev "0.1")
+		(date "2026-03-18")
+		(rev "0.2")
 		(company "Manuel Heredia - sevillabot")
 		(comment 1 "--")
 		(comment 2 "A project with version control")
@@ -1350,6 +1350,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "stash"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "08c402ea-cc43-4a6c-a86d-dd8d0dc24275")
 		)
@@ -1440,6 +1449,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 177.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "stash"
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -1544,6 +1562,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 96.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "stash"
 			(at 96.52 127 0)
 			(effects
 				(font
@@ -1657,6 +1684,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "stash"
 			(at 176.53 78.74 0)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU datalogger")
-		(date "2025-12-24")
-		(rev "0.1")
+		(date "2026-03-18")
+		(rev "0.2")
 		(company "Manuel Heredia - sevillabot")
 		(comment 1 "--")
 		(comment 2 "A project with version control")
@@ -364,167 +364,6 @@
 				)
 			)
 			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -4586,6 +4425,18 @@
 		)
 		(uuid a89b8012-f106-48d2-88e0-ead1180ee646)
 	)
+	(circle
+		(center 139.7 54.61)
+		(radius 8.132)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca40527b-5159-4c0f-992d-f6402e8ac13c)
+	)
 	(polyline
 		(pts
 			(xy 160.6285 173.9635) (xy 160.6815 173.9635) (xy 160.6815 173.99) (xy 160.7079 173.99) (xy 160.7079 174.0165)
@@ -4727,6 +4578,17 @@
 			(justify right)
 		)
 		(uuid "3009cf2b-a84c-4e6f-b797-6162903b3041")
+	)
+	(text "In original tutorial was polarized.\nRationale for change:\nAfter reading datasheet it makes sense instead \n- a small fast cap close to IC pins (hence 100nF ceramic)\n- optionally a large slow cap in series (did not add it)"
+		(exclude_from_sim no)
+		(at 137.16 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4def361d-f822-429a-8212-eefbd1b30f23")
 	)
 	(text "I2C"
 		(exclude_from_sim no)
@@ -6840,6 +6702,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 44.45 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3dc7cb6-74ec-424b-84b7-70f0518cfd17")
 		)
@@ -7062,7 +6933,7 @@
 		(at 152.4 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7148,6 +7019,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 152.4 58.42 0)
 			(effects
 				(font
@@ -7244,6 +7124,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 124.46 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8310632-3e42-434f-b784-3d9a21dfaef0")
 		)
@@ -7315,6 +7204,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 27.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 27.94 162.56 0)
 			(effects
 				(font
@@ -7396,6 +7294,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 27.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
@@ -7461,6 +7368,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 269.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 269.24 138.43 0)
 			(effects
 				(font
@@ -7538,6 +7454,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 44.45 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 44.45 58.42 90)
 			(effects
 				(font
@@ -7766,7 +7691,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 137.16 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7776,7 +7701,7 @@
 		(fields_autoplaced yes)
 		(uuid "63c157ad-9b7e-466a-8050-3650ffbe291f")
 		(property "Reference" "C5"
-			(at 140.97 56.7689 0)
+			(at 140.97 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,8 +7709,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 140.97 59.3089 0)
+		(property "Value" "0.1μF"
+			(at 140.97 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +7736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -7827,6 +7752,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MH_Role" ""
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7908,6 +7850,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 27.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
@@ -7972,6 +7923,15 @@
 		)
 		(property "My_Label" ""
 			(at 44.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 44.45 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,6 +8025,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b8a9d7f-ddc9-4935-93b3-126616e9f3f8")
 		)
@@ -8135,6 +8104,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 254 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 254 68.58 0)
 			(effects
 				(font
@@ -8294,6 +8272,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 246.38 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d79e0bc6-3e5c-4ee3-afdf-636a288d6a78")
 		)
@@ -8363,6 +8350,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 58.42 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 58.42 93.98 90)
 			(effects
 				(font
@@ -8442,6 +8438,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -8570,7 +8575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C112572.pdf"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -8589,6 +8594,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 58.42 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C112572"
 			(at 58.42 77.47 90)
 			(effects
 				(font
@@ -8649,7 +8663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C32346.pdf"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -8677,6 +8691,15 @@
 		)
 		(property "My_Label" ""
 			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C32346"
+			(at 190.5 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,6 +8784,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 50.8 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c986e7cf-98d5-43b4-ac53-d9c58a968e67")
 		)
@@ -8812,7 +8844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C9867.pdf"
 			(at 218.44 66.04 0)
 			(effects
 				(font
@@ -8927,6 +8959,15 @@
 				)
 			)
 		)
+		(property "LCSC#" "C9867"
+			(at 218.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e23ab57-4da1-4837-ae77-745bae9e389c")
 		)
@@ -8996,7 +9037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -9149,6 +9190,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "aliexpress"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -9393,6 +9443,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 246.38 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "614180c9-5ca0-4b44-91ef-37b53fddead3")
 		)
@@ -9472,6 +9531,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 27.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
@@ -9536,6 +9604,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C183301"
 			(at 223.52 132.08 0)
 			(effects
 				(font
@@ -9709,6 +9786,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 254 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2966d86-5116-4ba9-8636-fe293af74694")
 		)
@@ -9779,6 +9865,15 @@
 			)
 		)
 		(property "My_Label" ""
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C183301"
 			(at 182.88 132.08 0)
 			(effects
 				(font
