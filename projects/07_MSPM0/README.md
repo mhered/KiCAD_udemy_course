@@ -1,6 +1,6 @@
 # README.md
 
-Based on [KiCad 9 Hardware Design Tutorial (TI MSPM0)](https://www.youtube.com/watch?v=O-zNn5k5Bn4) Youtube tutoria lby Phil's Lab
+Based on [KiCad 9 Hardware Design Tutorial (TI MSPM0)](https://www.youtube.com/watch?v=O-zNn5k5Bn4) Youtube tutorial by Phil's Lab
 
 ## Microcontroller MSPM0G3507SPTR
 
