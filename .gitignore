@@ -19,7 +19,7 @@
 *.sch-prl
 *.pcb-prl
 **/fp-info-cache
-
+*.history
 __pycache__/
 
 # Ignore build directories
