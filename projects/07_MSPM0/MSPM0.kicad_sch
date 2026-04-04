@@ -7996,7 +7996,7 @@
 	)
 	(text "Jumpers \nto optionally\nisolate component\nduring\ntroubleshooting"
 		(exclude_from_sim no)
-		(at 233.68 134.62 0)
+		(at 233.68 132.08 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -8502,6 +8502,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 60.96) (xy 256.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c4f81e-f35e-4b80-a8e2-74d84834b6fb")
+	)
+	(wire
+		(pts
 			(xy 266.7 144.78) (xy 269.24 144.78)
 		)
 		(stroke
@@ -8582,7 +8592,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 144.78) (xy 243.84 144.78)
+			(xy 241.3 144.78) (xy 243.84 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8682,7 +8692,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 139.7) (xy 243.84 139.7)
+			(xy 238.76 139.7) (xy 243.84 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8709,16 +8719,6 @@
 			(type default)
 		)
 		(uuid "1ff3914d-e562-4d79-9ed9-9e8e09b67cf0")
-	)
-	(wire
-		(pts
-			(xy 238.76 147.32) (xy 236.22 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2086d9ef-0dcf-4b04-8044-4c7ba6a5d7ce")
 	)
 	(wire
 		(pts
@@ -8779,6 +8779,16 @@
 			(type default)
 		)
 		(uuid "2547e856-b3c7-4502-b601-8e6c32b2ad0a")
+	)
+	(wire
+		(pts
+			(xy 259.08 63.5) (xy 256.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296ef018-f675-4af6-981d-f9adaef7287d")
 	)
 	(wire
 		(pts
@@ -8912,7 +8922,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 63.5) (xy 218.44 63.5)
+			(xy 205.74 63.5) (xy 215.9 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8932,7 +8942,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 66.04) (xy 218.44 66.04)
+			(xy 205.74 66.04) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9042,7 +9052,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 142.24) (xy 243.84 142.24)
+			(xy 238.76 142.24) (xy 243.84 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9062,7 +9072,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 63.5) (xy 276.86 63.5)
+			(xy 266.7 63.5) (xy 276.86 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9172,6 +9182,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 147.32) (xy 238.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7e1e97-cdcf-4250-bc10-b24688637ce3")
+	)
+	(wire
+		(pts
 			(xy 20.32 68.58) (xy 20.32 71.12)
 		)
 		(stroke
@@ -9202,7 +9222,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 139.7) (xy 228.6 139.7)
+			(xy 210.82 139.7) (xy 231.14 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9262,7 +9282,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 147.32) (xy 228.6 147.32)
+			(xy 210.82 147.32) (xy 231.14 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9312,7 +9332,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 60.96) (xy 276.86 60.96)
+			(xy 266.7 60.96) (xy 276.86 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9650,6 +9670,16 @@
 		)
 		(uuid "ba0afdd1-1500-46ab-af25-7dd6f08752af")
 	)
+	(wire
+		(pts
+			(xy 223.52 66.04) (xy 226.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae9bc0e-f1e0-4d3c-9b8f-f7a86942f0cd")
+	)
 	(polyline
 		(pts
 			(xy 81.28 170.18) (xy 144.78 170.18)
@@ -9779,6 +9809,16 @@
 			(type default)
 		)
 		(uuid "d31e002a-fa29-4433-94b2-cfcb4816669c")
+	)
+	(wire
+		(pts
+			(xy 223.52 63.5) (xy 226.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71e9ac6-3352-4c1a-8604-cecd5df1da00")
 	)
 	(wire
 		(pts
@@ -9912,7 +9952,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 144.78) (xy 238.76 147.32)
+			(xy 241.3 144.78) (xy 241.3 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9952,7 +9992,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 142.24) (xy 228.6 142.24)
+			(xy 210.82 142.24) (xy 231.14 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10061,7 +10101,7 @@
 		(uuid "1316e27b-cf53-4f3a-8a25-f7cc92e61e14")
 	)
 	(label "I2C1_SCL"
-		(at 208.28 63.5 0)
+		(at 205.74 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10221,7 +10261,7 @@
 		(uuid "77bf4bee-48f3-44c0-8345-a7cb3438902c")
 	)
 	(label "I2C1_SCL"
-		(at 210.82 139.7 0)
+		(at 213.36 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10261,7 +10301,7 @@
 		(uuid "8279d327-fe28-4e85-ad61-2fb9655c252d")
 	)
 	(label "I2C1_SDA"
-		(at 208.28 66.04 0)
+		(at 205.74 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10271,7 +10311,7 @@
 		(uuid "8d1c5f21-5f24-4b38-a897-e4b411e4e428")
 	)
 	(label "INT_MAG"
-		(at 210.82 147.32 0)
+		(at 213.36 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10361,7 +10401,7 @@
 		(uuid "bc31cf22-ae91-41e4-8bcc-ebf911166693")
 	)
 	(label "I2C1_SDA"
-		(at 210.82 142.24 0)
+		(at 213.36 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11867,7 +11907,7 @@
 	)
 	(symbol
 		(lib_id "MH_library:SolderJumper_2_Bridged")
-		(at 218.44 63.5 0)
+		(at 215.9 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11877,7 +11917,7 @@
 		(dnp no)
 		(uuid "2484e751-8186-45fd-8a6b-fabcec7fb73e")
 		(property "Reference" "JP1"
-			(at 218.44 60.96 0)
+			(at 215.9 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11888,7 +11928,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 218.44 60.96 0)
+			(at 215.9 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11900,7 +11940,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 218.44 63.5 0)
+			(at 215.9 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11911,7 +11951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 63.5 0)
+			(at 215.9 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11922,7 +11962,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 238.76 66.04 0)
+			(at 236.22 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11933,7 +11973,7 @@
 			)
 		)
 		(property "MH_Role" ""
-			(at 218.44 63.5 0)
+			(at 215.9 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12717,7 +12757,7 @@
 	)
 	(symbol
 		(lib_id "MH_library:SolderJumper_2_Bridged")
-		(at 218.44 66.04 0)
+		(at 215.9 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12727,7 +12767,7 @@
 		(dnp no)
 		(uuid "4059149e-2fd3-4373-ac81-16dbe6b8aaa5")
 		(property "Reference" "JP2"
-			(at 218.44 68.58 0)
+			(at 215.9 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12738,7 +12778,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 218.44 63.5 0)
+			(at 215.9 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12750,7 +12790,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 218.44 66.04 0)
+			(at 215.9 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12761,7 +12801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 66.04 0)
+			(at 215.9 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12772,7 +12812,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 238.76 68.58 0)
+			(at 236.22 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12783,7 +12823,7 @@
 			)
 		)
 		(property "MH_Role" ""
-			(at 218.44 66.04 0)
+			(at 215.9 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12974,7 +13014,7 @@
 	)
 	(symbol
 		(lib_id "MH_library:SolderJumper_2_Bridged")
-		(at 228.6 142.24 0)
+		(at 231.14 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12984,7 +13024,7 @@
 		(dnp no)
 		(uuid "45c7e2aa-8c4a-44b1-a6ba-c58df92d04be")
 		(property "Reference" "JP4"
-			(at 233.68 144.78 0)
+			(at 231.14 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12995,7 +13035,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 228.6 139.7 0)
+			(at 231.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13007,7 +13047,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 228.6 142.24 0)
+			(at 231.14 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13018,7 +13058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 142.24 0)
+			(at 231.14 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13029,7 +13069,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 248.92 144.78 0)
+			(at 251.46 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13040,7 +13080,7 @@
 			)
 		)
 		(property "MH_Role" ""
-			(at 228.6 142.24 0)
+			(at 231.14 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16054,7 +16094,7 @@
 	)
 	(symbol
 		(lib_id "MH_library:SolderJumper_2_Bridged")
-		(at 228.6 147.32 0)
+		(at 231.14 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16064,7 +16104,7 @@
 		(dnp no)
 		(uuid "a30132d8-578e-4114-b2e7-ab928b951e88")
 		(property "Reference" "JP5"
-			(at 233.68 149.86 0)
+			(at 231.14 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16075,7 +16115,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 228.6 144.78 0)
+			(at 231.14 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16087,7 +16127,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 228.6 147.32 0)
+			(at 231.14 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16098,7 +16138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 147.32 0)
+			(at 231.14 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16109,7 +16149,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 248.92 149.86 0)
+			(at 251.46 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16120,7 +16160,7 @@
 			)
 		)
 		(property "MH_Role" ""
-			(at 228.6 147.32 0)
+			(at 231.14 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17607,7 +17647,7 @@
 	)
 	(symbol
 		(lib_id "MH_library:SolderJumper_2_Bridged")
-		(at 256.54 60.96 0)
+		(at 259.08 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17617,7 +17657,7 @@
 		(dnp no)
 		(uuid "c4ceee4d-c437-4cb1-b972-625ee52f1f0a")
 		(property "Reference" "JP6"
-			(at 256.54 58.42 0)
+			(at 259.08 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17628,7 +17668,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 256.54 58.42 0)
+			(at 259.08 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17640,7 +17680,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 256.54 60.96 0)
+			(at 259.08 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17651,7 +17691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 60.96 0)
+			(at 259.08 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17662,7 +17702,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 276.86 63.5 0)
+			(at 279.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17673,7 +17713,7 @@
 			)
 		)
 		(property "MH_Role" ""
-			(at 256.54 60.96 0)
+			(at 259.08 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18408,7 +18448,7 @@
 	)
 	(symbol
 		(lib_id "MH_library:SolderJumper_2_Bridged")
-		(at 228.6 139.7 0)
+		(at 231.14 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18418,7 +18458,7 @@
 		(dnp no)
 		(uuid "e396fa80-544c-4e88-937a-b96fdb6420af")
 		(property "Reference" "JP3"
-			(at 233.68 137.16 0)
+			(at 231.14 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18429,7 +18469,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 228.6 137.16 0)
+			(at 231.14 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18441,7 +18481,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 228.6 139.7 0)
+			(at 231.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18452,7 +18492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 139.7 0)
+			(at 231.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18463,7 +18503,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 248.92 142.24 0)
+			(at 251.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18474,7 +18514,7 @@
 			)
 		)
 		(property "MH_Role" ""
-			(at 228.6 139.7 0)
+			(at 231.14 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18904,7 +18944,7 @@
 	)
 	(symbol
 		(lib_id "MH_library:SolderJumper_2_Bridged")
-		(at 256.54 63.5 0)
+		(at 259.08 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18914,7 +18954,7 @@
 		(dnp no)
 		(uuid "f34ff89e-bab6-4a65-bbc0-b57b46cbf229")
 		(property "Reference" "JP7"
-			(at 256.54 66.04 0)
+			(at 259.08 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18925,7 +18965,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 256.54 60.96 0)
+			(at 259.08 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18937,7 +18977,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 256.54 63.5 0)
+			(at 259.08 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18948,7 +18988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 63.5 0)
+			(at 259.08 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18959,7 +18999,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 276.86 66.04 0)
+			(at 279.4 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18970,7 +19010,7 @@
 			)
 		)
 		(property "MH_Role" ""
-			(at 256.54 63.5 0)
+			(at 259.08 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

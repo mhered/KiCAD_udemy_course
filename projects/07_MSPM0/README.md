@@ -51,3 +51,7 @@ https://www.digikey.bg/en/pdf/m/memsic/magnetic-sensor-hardware-guideline
 https://www.nxp.com/docs/en/application-note/AN4247.pdf
 
 Arduino library: https://github.com/sparkfun/SparkFun_MMC5983MA_Magnetometer_Arduino_Library
+
+## WIP
+
+![](./assets/MSPM0_WIP.png)
