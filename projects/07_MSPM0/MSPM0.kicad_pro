@@ -430,7 +430,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
@@ -440,7 +440,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -457,8 +457,8 @@
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "simulation_model_issue": "warning",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -498,14 +498,62 @@
         "wire_width": 6
       },
       {
-        "name": "PWR_IN_OUT",
+        "name": "CRYSTAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 255, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 153, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.9,
-        "via_drill": 0.5
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "name": "SWD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 194, 194)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 255, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "name": "VREF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 108, 96)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -515,8 +563,40 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "*_POSITIVE"
+        "netclass": "USB",
+        "pattern": "/USB*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/UART*"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "/SW*"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "/NRST"
+      },
+      {
+        "netclass": "VREF",
+        "pattern": "/VREF*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/I2C*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/INT*"
+      },
+      {
+        "netclass": "CRYSTAL",
+        "pattern": "/HF*"
       }
     ]
   },
@@ -650,6 +730,36 @@
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PN",
+          "name": "LCSC PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field9",
+          "name": "Field9",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer PN",
+          "name": "Manufacturer PN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -673,7 +783,7 @@
           "visible": true
         }
       ],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -714,7 +824,7 @@
         "uuid": "7bf4f70a-c379-4f6a-bba1-afc53ccea3c5"
       }
     ],
-    "used_designators": "#PWR48-49",
+    "used_designators": "FID1-3,MH2-4,#PWR10,#PWR12,#PWR42,#PWR50,H1-2",
     "variants": []
   },
   "sheets": [
