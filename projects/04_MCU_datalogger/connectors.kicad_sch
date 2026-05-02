@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "9dc420f9-f07a-45e1-a4a3-05f19fbf9e8e")
 	(paper "A4")
 	(title_block
@@ -22,8 +22,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,6 +36,8 @@
 			)
 			(property "Value" "Conn_01x04_Pin"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,33 +46,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -75,20 +89,24 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x04_Pin_1_1"
@@ -267,8 +285,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -277,6 +299,8 @@
 			)
 			(property "Value" "Conn_01x09_Pin"
 				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -285,33 +309,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x09, script generated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -320,20 +352,24 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x09_Pin_1_1"
@@ -717,8 +753,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -727,6 +767,8 @@
 			)
 			(property "Value" "Conn_02x03_Odd_Even"
 				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -735,47 +777,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_02x03_Odd_Even_1_1"
@@ -875,42 +927,6 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
@@ -929,6 +945,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_4"
@@ -939,6 +973,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -980,7 +1032,7 @@
 		)
 		(uuid "39c9104f-a2c7-4edf-b6b8-78a0225b673f")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 101.6 81.28 0)
 		(effects
@@ -993,7 +1045,7 @@
 		)
 		(uuid "1e214f2a-5b31-4891-9a24-d416df5ebd89")
 	)
-	(hierarchical_label "D3"
+	(hierarchical_label "GPIO_D3"
 		(shape bidirectional)
 		(at 101.6 124.46 0)
 		(effects
@@ -1006,7 +1058,7 @@
 		)
 		(uuid "22bd67c5-3378-4214-9667-2f8e38a24c7a")
 	)
-	(hierarchical_label "D7"
+	(hierarchical_label "GPIO_D7"
 		(shape bidirectional)
 		(at 101.6 134.62 0)
 		(effects
@@ -1019,7 +1071,7 @@
 		)
 		(uuid "2c0e9ee3-b10d-4086-989e-7df64a0e86f5")
 	)
-	(hierarchical_label "Vcc"
+	(hierarchical_label "VCC"
 		(shape passive)
 		(at 185.42 116.84 0)
 		(effects
@@ -1032,7 +1084,7 @@
 		)
 		(uuid "32e37270-bd8d-4d8d-959a-80c18fdf8255")
 	)
-	(hierarchical_label "RESET"
+	(hierarchical_label "ICSP_RST"
 		(shape passive)
 		(at 172.72 121.92 180)
 		(effects
@@ -1045,7 +1097,7 @@
 		)
 		(uuid "342d3bb7-c24a-4491-b5f5-eee32ac21d1e")
 	)
-	(hierarchical_label "Vcc"
+	(hierarchical_label "VCC"
 		(shape passive)
 		(at 181.61 78.74 0)
 		(effects
@@ -1058,7 +1110,7 @@
 		)
 		(uuid "3a0d1bf6-e7ab-4ba1-ad7d-76e9ae1929bb")
 	)
-	(hierarchical_label "Vcc"
+	(hierarchical_label "VCC"
 		(shape passive)
 		(at 101.6 119.38 0)
 		(effects
@@ -1071,7 +1123,7 @@
 		)
 		(uuid "3ccfa8b4-8386-4ca7-9841-23f46a41e0a2")
 	)
-	(hierarchical_label "D4"
+	(hierarchical_label "GPIO_D4"
 		(shape bidirectional)
 		(at 101.6 127 0)
 		(effects
@@ -1097,7 +1149,7 @@
 		)
 		(uuid "5fb4e743-a9d0-4384-909a-145edcd39f01")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "I2C_SCL"
 		(shape passive)
 		(at 101.6 83.82 0)
 		(effects
@@ -1123,7 +1175,7 @@
 		)
 		(uuid "63ed325d-7593-42f1-84d8-2f03f1173221")
 	)
-	(hierarchical_label "D6"
+	(hierarchical_label "GPIO_D6"
 		(shape bidirectional)
 		(at 101.6 132.08 0)
 		(effects
@@ -1136,7 +1188,7 @@
 		)
 		(uuid "78b167ee-5327-4f17-8842-a583867cab1b")
 	)
-	(hierarchical_label "D8"
+	(hierarchical_label "GPIO_D8"
 		(shape bidirectional)
 		(at 101.6 137.16 0)
 		(effects
@@ -1149,7 +1201,7 @@
 		)
 		(uuid "82af362d-5c5b-40ca-9b27-b1f42a01a3e3")
 	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "ICSP_MISO"
 		(shape output)
 		(at 172.72 116.84 180)
 		(effects
@@ -1162,7 +1214,7 @@
 		)
 		(uuid "91edfd3c-9f40-43cd-aed3-5fb9a453465e")
 	)
-	(hierarchical_label "MOSI"
+	(hierarchical_label "ICSP_MOSI"
 		(shape input)
 		(at 185.42 119.38 0)
 		(effects
@@ -1175,7 +1227,7 @@
 		)
 		(uuid "b2976687-45cd-476f-8efb-7c9f0093719b")
 	)
-	(hierarchical_label "RX"
+	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 181.61 81.28 0)
 		(effects
@@ -1188,7 +1240,7 @@
 		)
 		(uuid "b32b752a-623b-43fd-b814-dc03e4da673f")
 	)
-	(hierarchical_label "D5"
+	(hierarchical_label "GPIO_D5"
 		(shape bidirectional)
 		(at 101.6 129.54 0)
 		(effects
@@ -1214,7 +1266,7 @@
 		)
 		(uuid "c62a1c19-33d7-4ffb-aeb5-86b35ff92858")
 	)
-	(hierarchical_label "Vcc"
+	(hierarchical_label "VCC"
 		(shape passive)
 		(at 101.6 78.74 0)
 		(effects
@@ -1227,7 +1279,7 @@
 		)
 		(uuid "dd324cf8-ef32-4815-ba8d-7fb22f771983")
 	)
-	(hierarchical_label "TX"
+	(hierarchical_label "UART_TX"
 		(shape output)
 		(at 181.61 83.82 0)
 		(effects
@@ -1240,7 +1292,7 @@
 		)
 		(uuid "e9590230-6dbf-42f2-ae06-f382fdc08918")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "ICSP_SCK"
 		(shape passive)
 		(at 172.72 119.38 180)
 		(effects
@@ -1266,7 +1318,7 @@
 		)
 		(uuid "f6768715-6041-4546-be59-7f7a17d93e1d")
 	)
-	(hierarchical_label "D2"
+	(hierarchical_label "GPIO_D2"
 		(shape bidirectional)
 		(at 101.6 121.92 0)
 		(effects
@@ -1283,13 +1335,17 @@
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 96.52 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e55cebd-2271-44f3-b7b0-c73d2441d60b")
 		(property "Reference" "J1"
 			(at 97.155 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,6 +1354,8 @@
 		)
 		(property "Value" "Conn_01x04_Pin"
 			(at 97.155 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,33 +1364,41 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 96.52 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 96.52 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MH_Role" "I2C"
 			(at 96.52 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1343,20 +1409,24 @@
 		)
 		(property "My_Label" ""
 			(at 96.52 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC#" "stash"
 			(at 96.52 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -1372,7 +1442,7 @@
 			(uuid "472e6b5f-1393-4a7c-8c81-cc557b4dc9d2")
 		)
 		(instances
-			(project ""
+			(project "MCU_datalogger"
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5/f748de0e-ad40-4233-8c36-6ac943b70eee"
 					(reference "J1")
 					(unit 1)
@@ -1390,13 +1460,17 @@
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 177.8 119.38 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "43d73356-2757-4e9d-ada7-31321d25d4e0")
 		(property "Reference" "J4"
 			(at 179.07 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,6 +1479,8 @@
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
 			(at 179.07 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,33 +1489,41 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MH_Role" "ICSP"
 			(at 179.07 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1450,20 +1534,24 @@
 		)
 		(property "My_Label" ""
 			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC#" "stash"
 			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"
@@ -1485,7 +1573,7 @@
 			(uuid "58769b9c-b3ca-455b-9df9-e950f5f2906a")
 		)
 		(instances
-			(project ""
+			(project "MCU_datalogger"
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5/f748de0e-ad40-4233-8c36-6ac943b70eee"
 					(reference "J4")
 					(unit 1)
@@ -1503,13 +1591,17 @@
 		(lib_id "Connector:Conn_01x09_Pin")
 		(at 96.52 127 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc77827f-06e1-4ad1-bfeb-80cda1881405")
 		(property "Reference" "J2"
 			(at 99.06 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,6 +1610,8 @@
 		)
 		(property "Value" "Conn_01x09_Pin"
 			(at 99.06 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,33 +1620,41 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MH_Role" "GPIO"
 			(at 97.79 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1563,20 +1665,24 @@
 		)
 		(property "My_Label" ""
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC#" "stash"
 			(at 96.52 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "7"
@@ -1607,7 +1713,7 @@
 			(uuid "38f4ab4c-7b91-4232-a2ac-ad695d934431")
 		)
 		(instances
-			(project ""
+			(project "MCU_datalogger"
 				(path "/7bf4f70a-c379-4f6a-bba1-afc53ccea3c5/f748de0e-ad40-4233-8c36-6ac943b70eee"
 					(reference "J2")
 					(unit 1)
@@ -1625,13 +1731,17 @@
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 176.53 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "da151167-a1be-4580-b2b4-c9963a3a3842")
 		(property "Reference" "J3"
 			(at 179.07 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,6 +1750,8 @@
 		)
 		(property "Value" "Conn_01x04_Pin"
 			(at 179.07 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,33 +1760,41 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MH_Role" "Serial UART"
 			(at 179.07 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1685,20 +1805,24 @@
 		)
 		(property "My_Label" ""
 			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC#" "stash"
 			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"

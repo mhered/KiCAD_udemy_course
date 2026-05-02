@@ -4,15 +4,14 @@ A simple **microcontroller-based datalogger** designed to practice PCB design in
 
 The design covers the key building blocks of a typical datalogger system:
 
-- **MCU (microcontroller)** – handles sensor interfacing, data collection, and storage management.
+- **MCU (microcontroller)** – handles sensor interfacing, data collection, and storage management. **ATMEGA328P-AU** (downloaded from SNAPEDA)
+- **DS1337S** - Real-time clock
 - **Sensors / Inputs** – generic sensor connections to capture physical measurements.
 - **EEPROM** – nonvolatile memory to store logged data.
-- **Power supply** – provides stable operation from external power or batteries.
+- **Power supply** – provides stable operation from external power or batteries (expected 3.3V-5V. Supplies both RTC and MCU)
 - **Programming / Debug headers** – for uploading firmware and retrieving logged data (??)
 
-DS1337S
 
-ATMEGA328P-AU from SNAPEDA
 
 ## v1.0
 
@@ -33,15 +32,34 @@ Adjust edges and silkscreen, add Vcc fill zone
 
 - http://www.kerrywong.com/2010/09/25/i2c-data-logger-using-atmega328p-and-ds3232/
 
+## v1.2 and v2.2
+
+These are the first versions I printed 
+
 ## v1.3
 
-ChatGPT disagrees with the choice of an electrolytic 100nF capacitor in parallel with the battery it says it is too slow. and recommends instead a ceramic 100nF close to the MCU pins to act as filter for spikes. Optionally can add a 10-100uF bulk cap (e.g. electrolytic) to stabilize)
+Note: ChatGPT disagrees with the choice of an electrolytic 100nF capacitor in parallel with the battery it says it is too slow. and recommends instead a ceramic 100nF close to the MCU pins to act as filter for spikes. Optionally can add a 10-100uF bulk cap (e.g. electrolytic) to stabilize). I cant find anything in the datasheet
 
-I cant find anything in the datasheet
+Note: Looks like EEPROM address is hardcoded 111 and 101, check datasheet!
 
-Looks like EEPROM address is hardcoded 111 and 101, check datasheet!
+Cleaned up the schematic with what I have learned since I first made it. In `MCU_datalogger.kicad_sch` and `connectors.kicad_sch`:
+   - updated RTC, EEPROM, Crystal symbols to arrange pins properly and align them to the 100mil grid
+    - renamed nets to start with `ICSP_*`,  `I2C_*`,  `UART_*`
+    - replaced `Vcc` label with the `VCC` power symbol
+    - added net colors
 
+In `MCU_datalogger.kicad_pcb`:
+- replaced layout in `main` branch with empty placeholder referring to `2layer` and `4layer` branches
 
+To do:
+- [ ] ensure modified symbols are saved in custom library (e.g. MH_library)
+- [ ] Note: before deleting the layout DRC threw hundreds of errors: unconnected pins, solder mask bridges, etc. Find out why and fix it smartly.
+
+# Assembly
+
+To do:
+
+- [ ] download videos from iphone, cut video of STM assy, including BOM screencast
 
 # Inspect
 
@@ -168,7 +186,11 @@ avrdude done.  Thank you.
 
 Blue LED blinks when data transfer works
 
-![](./assets/MCU_datalogger_burning_bootloader.gif) Download from iphone
+![](./assets/MCU_datalogger_burning_bootloader.gif) 
+
+To Do:
+
+- [ ] Download video from iphone
 
 # Upload sketches 
 
@@ -219,7 +241,9 @@ Connect **FT232rl** to the PCB UART port and the computer usb, in A**rduino IDE*
 
 shorting RESET for 1-2s immediately after clicking Upload then releasing seems to work reliably
 
-# Check UART
+# Testing
+
+## Check UART
 
 ```c
 // Check UART to test ATMega MCU datalogger
@@ -235,5 +259,4 @@ void loop() {
 ```
 
 This sketch shows `Testing UART... OK` in the serial monitor (115200 baud)
-
 
