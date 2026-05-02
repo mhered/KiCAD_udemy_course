@@ -41,3 +41,199 @@ I cant find anything in the datasheet
 
 Looks like EEPROM address is hardcoded 111 and 101, check datasheet!
 
+
+
+# Inspect
+
+![](./assets/MCU_datalogger_inspect.gif) 
+
+
+
+# Power on
+
+1. Power on connecting 5V to BAT input and check ther is no magic smoke and temperatures are normal
+
+![](./assets/MCU_datalogger_IR_0021.BMP)
+
+# USBasp vs FT232
+
+| Device  |                           | Talks To            | Used For                                                     |
+| ------- | ------------------------- | ------------------- | ------------------------------------------------------------ |
+| USBasp  | ![](./assets/USBasp.png)  | Hardware SPI        | Install bootloader on blank chip, recover bricked chip, reset fuses. Can be used to upload sketch in production |
+| FT232rl | ![](./assets/FT232rl.png) | Bootloader via UART | Upload sketches easily when bootloader is installed. Good for faster iteration during development |
+
+## Burn the bootloader
+
+1. Connect the **USBasp** to the ICSP port in the PCB and to the computer USB
+
+### Option 1 - use A**rduino IDE**:
+
+* **Tools** >  **Board** > **Arduino Uno**
+* **Tools** > **Programmer** > **USBasp**
+* **Tools** > **Burn Bootloader**
+
+This will set fuses, install Optiboot and configure the clock source
+
+⚠️ Note: in my case this yields error: `cannot set SCK period; please check for USBasp firmware update`
+
+### Setup (first time) - Give permission
+
+If `Warning: cannot open USB device: Permission denied` when trying to burn the bootloader 
+
+1. Check the ATMega is recognized
+
+```bash
+$ lsusb
+...
+Bus 003 Device 031: ID 16c0:05dc Van Ooijen Technische Informatica shared ID for use with libusb
+...
+
+```
+
+2. Create an udev rule file for USBasp
+
+```bash
+$ sudo nano /etc/udev/rules.d/99-usbasp.rules
+```
+
+with this content:
+
+```
+SUBSYSTEM=="usb", ATTR{idVendor}=="16c0", ATTR{idProduct}=="05dc", MODE="0666"
+```
+
+3. Reload udev rules
+
+```bash
+$ sudo udevadm control --reload-rules
+$ sudo udevadm trigger
+```
+
+### Option 2 use `avrdude`
+
+```bash
+$ sudo apt install avrdude
+$ avrdude -c usbasp -p m328p -v
+
+avrdude: Version 7.1
+         Copyright the AVRDUDE authors;
+         see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+         System wide configuration file is /etc/avrdude.conf
+         User configuration file is /home/mhered/.avrduderc
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : usb
+         Using Programmer              : usbasp
+         AVR Part                      : ATmega328P
+         Chip Erase delay              : 9000 us
+         PAGEL                         : PD7
+         BS2                           : PC2
+         RESET disposition             : possible i/o
+         RETRY pulse                   : SCK
+         Serial program mode           : yes
+         Parallel program mode         : yes
+         Timeout                       : 200
+         StabDelay                     : 100
+         CmdexeDelay                   : 25
+         SyncLoops                     : 32
+         PollIndex                     : 3
+         PollValue                     : 0x53
+         Memory Detail                 :
+
+                                           Block Poll               Page                       Polled
+           Memory Type Alias    Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- -------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           eeprom                 65    20     4    0 no       1024    4      0  3600  3600 0xff 0xff
+           flash                  65     6   128    0 yes     32768  128    256  4500  4500 0xff 0xff
+           lfuse                   0     0     0    0 no          1    1      0  4500  4500 0x00 0x00
+           hfuse                   0     0     0    0 no          1    1      0  4500  4500 0x00 0x00
+           efuse                   0     0     0    0 no          1    1      0  4500  4500 0x00 0x00
+           lock                    0     0     0    0 no          1    1      0  4500  4500 0x00 0x00
+           signature               0     0     0    0 no          3    1      0     0     0 0x00 0x00
+           calibration             0     0     0    0 no          1    1      0     0     0 0x00 0x00
+
+         Programmer Type : usbasp
+         Description     : USBasp, http://www.fischl.de/usbasp/
+
+avrdude: auto set sck period (because given equals null)
+avrdude usbasp_spi_set_sck_period() error: cannot set sck period; please check for usbasp firmware update
+avrdude: AVR device initialized and ready to accept instructions
+avrdude: device signature = 0x1e950f (probably m328p)
+
+avrdude done.  Thank you.
+```
+
+5. Unplug and replug the USBasp
+
+Blue LED blinks when data transfer works
+
+![](./assets/MCU_datalogger_burning_bootloader.gif) Download from iphone
+
+# Upload sketches 
+
+## Option 1 - using USBasp
+
+Connect **USBasp**, in A**rduino IDE**:
+
+* **Tools** >  **Board** > **Arduino Uno**
+* **Tools** > **Programmer** > **USBasp**
+* **Sketch** > **Upload Using Programmer** (⚠️ Do **NOT** press the normal Upload button.)
+
+This will compile the sketch and flash directly via SPI using`avrdude`
+
+Note this will overwrite the bootloader section (saves 512 bytes of flash!)
+
+```c
+// Blink of internal LED to test ATMega MCU datalogger
+// 2 flashes per second
+
+int led = 4; // connect LED + R to GND and any of the exposed pins led= 2 ... 8 
+
+void setup() {
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(led, HIGH);
+  delay(100);
+  digitalWrite(led, LOW);
+  delay(100);
+  digitalWrite(led, HIGH);
+  delay(100);
+  digitalWrite(led, LOW);
+  delay(700);
+}
+```
+
+## Option 2 - using FT232rl (Serial)
+
+Connect **FT232rl** to the PCB UART port and the computer usb, in A**rduino IDE**:
+
+* **Tools** >  **Board** > **Arduino Uno**
+* **Tools** > **Port** > `/dev/ttyUSB0`
+* Click the normal **Upload** button
+* When you see **“Uploading…”** briefly press **Reset** button  (⚠️ My TTL adapter **FT232RL** does NOT expose `DTR` so there is no auto reset, needed to reset manually for the upload of sketch to work)
+
+⚠️**NOTE: I have no RESET button: need to short RESET and GND with a jumper wire and requires precise timing!!**
+
+shorting RESET for 1-2s immediately after clicking Upload then releasing seems to work reliably
+
+# Check UART
+
+```c
+// Check UART to test ATMega MCU datalogger
+// outputs "Testing UART... OK" at 1s intervals in the Serial Monitor (115200 baud)
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
+  Serial.println("Testing UART... OK");
+  delay(1000);
+}
+```
+
+This sketch shows `Testing UART... OK` in the serial monitor (115200 baud)
+
+
