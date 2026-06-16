@@ -24,9 +24,7 @@ For the mechanical side of things:
 
 ## Notes on components
 
-TRACO Power TSR-1 2450 - DC-DC step-down (buck) regulator (replaces 78xx linear regulators) with a single 5 V output at up to 1A
-
-
+TRACO Power TSR-1 2450 - DC-DC step-down (buck) regulator (replaces 78xx linear regulators) with a single 5V output at up to 1A
 
 DC power jack
 
@@ -73,15 +71,19 @@ Issues:
 
 * silkscreen missing connector labels, project name and version
 
-## v1.3
+## v1.4
 
 Fixes:
 
-- silkscreen: missing connector labels, project name and version
-- more vias to power planes close to pads
-- align 24VDC, RS485, relay connectors 
+- silkscreen: add missing connector labels, project name and version
+- Relay is wired as if it was monostable (non latching) but RT314A05 relay is actually bistable, would require an H-bridge to reverse polarity (!!). The correct relay to work with this circuit should be the RT314005 instead. 
+- Additionally relay's NO and NC labels are swapped (confirmed after the proper relay is installed) 
+- **Note: D8 LED green mark should point downwards. If orientation is incorrect during tests: BLUE and RED appear swapped and GREEN appears dead**
+- what is **J7** connector > Seems to be a jumper to enable a 120 Ohm termination resistor for RS485 connector
 
-Issues:
+Open Issues:
 
-- J7 connector?
-- orientation LED D8?
+- [ ] Wifi not working on USB-C Pico W. Replace to check if it was a faulty unit or a fake component > "fake component" does not have CYW43 but an ESP instead, does not work with std libraries. Additionally the first Fake Pico W seems was faulty.
+- [x] Install the RT314005 relay, check behavior, and after check again if **NO** and **NC** labels are indeed swapped. Confirmed the monostable relay works ok, and NC / NO are indeed swapped
+- [x] Pico USB-C connector is too close to the board, normal connectors wont fit, had to manufacture  an extra flat one. Consider moving the footprint to avoid the clash. > hacked shaving off the rubber from the microUSB connector to make it flatter
+- [ ] replace J5 RS485 connector: 4pin 5mm pitch screw terminal by 2.54mm pitch
