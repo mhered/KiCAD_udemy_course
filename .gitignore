@@ -25,3 +25,9 @@ __pycache__/
 # Ignore build directories
 build/
 output/
+
+# MicroPython secrets (WiFi credentials)
+**/secrets.py
+
+# Ignore vscode
+.vscode
