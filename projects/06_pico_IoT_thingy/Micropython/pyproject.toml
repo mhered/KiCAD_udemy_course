@@ -1,0 +1,9 @@
+[project]
+name = "pico-iot-thingy-tools"
+version = "0.1.0"
+description = "Host-side tools for pico_IoT_thingy firmware development and QC"
+requires-python = ">=3.9"
+dependencies = [
+    "mpremote",   # deploy firmware files to the Pico over USB
+    "pyserial",   # RS485 echo helper script
+]
